@@ -1,0 +1,24 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "xiegerts"
+theme ="hugo-theme-basic"
+
+googleAnalytics = ""
+copyright = ""
+
+[params]
+    twitter = "@siegerts"
+
+
+[Permalinks]
+  post = "post/:slug"
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.twitter]
+    enableDNT = true
+  [privacy.youtube]
+    privacyEnhanced = true
