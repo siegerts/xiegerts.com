@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://xiegerts.com/"
 languageCode = "en-us"
 title = "xiegerts"
 theme ="hugo-theme-basic"
@@ -7,7 +7,7 @@ googleAnalytics = ""
 copyright = ""
 
 [params]
-    twitter = "@siegerts"
+    twitter = "siegerts"
 
 
 [Permalinks]
