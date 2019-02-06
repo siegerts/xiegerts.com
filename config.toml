@@ -6,6 +6,8 @@ theme ="hugo-theme-basic"
 googleAnalytics = ""
 copyright = ""
 
+publishDir = "docs"
+
 [params]
     twitter = "siegerts"
 
