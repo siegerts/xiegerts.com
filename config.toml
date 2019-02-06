@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "xiegerts"
 theme ="hugo-theme-basic"
 
-googleAnalytics = "UA-134038089-1"
+GoogleAnalytics = "UA-134038089-1"
 copyright = ""
 
 publishDir = "docs"
