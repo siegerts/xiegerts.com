@@ -6,9 +6,29 @@
     <description>Recent content in Tags on xiegerts</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>© 2016-19 S. Siegert</copyright>
+    <lastBuildDate>Sun, 10 Feb 2019 16:53:06 -0500</lastBuildDate>
     
 	<atom:link href="https://xiegerts.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title></title>
+      <link>https://xiegerts.com/tags/</link>
+      <pubDate>Sun, 10 Feb 2019 16:53:06 -0500</pubDate>
+      
+      <guid>https://xiegerts.com/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>https://xiegerts.com/tags/development/</link>
+      <pubDate>Sun, 10 Feb 2019 16:53:06 -0500</pubDate>
+      
+      <guid>https://xiegerts.com/tags/development/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

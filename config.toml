@@ -4,16 +4,30 @@ title = "xiegerts"
 theme ="hugo-theme-basic"
 
 GoogleAnalytics = "UA-134038089-1"
-copyright = ""
+copyright = "© 2016-19 S. Siegert"
 
 publishDir = "docs"
 
 [params]
-    twitter = "siegerts"
-
+  titleEmoji = "☕ 🐶"
+  twitter = "siegerts"
 
 [Permalinks]
-  post = "post/:slug"
+  blog = "blog/:slug"
+
+# links
+[[params.menu]]
+  name = "blog"
+  url = "blog/"
+
+[[params.menu]]
+  name = "github"
+  url = "https://github.com/siegerts"
+
+[[params.menu]]
+  name = "gitlab"
+  url = "https://gitlab.com/siegerts"
+
 
 [privacy]
   [privacy.googleAnalytics]

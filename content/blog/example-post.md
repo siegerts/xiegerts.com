@@ -1,14 +1,8 @@
 +++
 title = "Example Post"
 description = ""
-tags = [
-   
-    "development",
-]
-topics = [
-    "Development",
-    
-]
+tags = ["development"]
+topics = ["Development"]
 date = 2019-02-01T17:05:44-05:00
 
 draft = true
