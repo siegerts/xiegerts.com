@@ -2,7 +2,7 @@
 title = "Example Post"
 description = ""
 tags = ["development"]
-topics = ["Development"]
+categories = ["Development"]
 date = 2019-02-01T17:05:44-05:00
 
 draft = true

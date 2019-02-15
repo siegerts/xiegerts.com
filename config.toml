@@ -2,14 +2,19 @@ baseURL = "https://xiegerts.com/"
 languageCode = "en-us"
 title = "xiegerts"
 theme ="hugo-theme-basic"
+enableEmoji = true 
 
 GoogleAnalytics = "UA-134038089-1"
 copyright = "© 2016-19 S. Siegert"
 
-publishDir = "docs"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
 
 [params]
-  titleEmoji = "☕ 🐶"
+  titleEmoji = ":coffee: :dog:"
   twitter = "siegerts"
 
 [Permalinks]
