@@ -23,7 +23,7 @@ copyright = "© 2016-19 S. Siegert"
 # links
 [[params.menu]]
   name = "blog"
-  url = "blog/"
+  url = "post/"
 
 [[params.menu]]
   name = "github"
