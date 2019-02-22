@@ -2,10 +2,11 @@ baseURL = "https://xiegerts.com/"
 languageCode = "en-us"
 title = "xiegerts"
 theme ="hugo-theme-basic"
-enableEmoji = true 
+enableEmoji = true
+
 
 GoogleAnalytics = "UA-134038089-1"
-copyright = "© 2016-19 S. Siegert"
+copyright = "© 2019 Copyright Stephen Siegert (@siegerts). All rights reserved."
 
 
 [taxonomies]
