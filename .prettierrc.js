@@ -1,3 +1,5 @@
 module.exports = {
-  disableLanguages: ["html"]
+  disableLanguages: ["html"],
+  semi: false,
+  singleQuote: true
 };
