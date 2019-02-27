@@ -1,6 +1,6 @@
 +++
 title = "Visual Studio Code Settings for Vue"
-description = "The settings below are my defaults for Vue.js development in Visual Studio Code. These are optional _but_ influence the structure and syntax of the code examples in some of my posts."
+description = "The settings below are my defaults for Vue.js development in Visual Studio Code."
 tags = [
   "development", 
   "VS Code", 
