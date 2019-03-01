@@ -1,5 +1,5 @@
 +++
-title = "Visual Studio Code Settings for Vue"
+title = "Visual Studio Code settings for Vue"
 description = "The settings below are my defaults for Vue.js development in Visual Studio Code."
 tags = [
   "development", 
