@@ -13,7 +13,7 @@ tags = [
 ]
 categories = ["Development"]
 
-# series = "Vue Component Library"
+series = "Vue component library"
 
 date = 2019-02-27T10:03:55-05:00
 +++
@@ -51,3 +51,5 @@ We'll step through:
 - Deploying the documentation
 
 As always, the only way to understand is by rolling up your sleeves and giving it a try. :tada:
+
+To get started, check out [Structuring a Vue component library](/post/creating-vue-component-library-structure/).
