@@ -22,7 +22,7 @@ In [the last post](/post/creating-vue-component-library-introduction/) I outline
 
 ## Vue project structure
 
-We're going to use [Vue CLI 3](https://cli.vuejs.org/guide/). Bam!
+We're going to use the [Vue CLI 3](https://cli.vuejs.org/guide/). Bam!
 
 Luckily, a lot of the _once was_ configuration steps are now handled by the CLI, mostly regarding webpack. That's not to say that you won't eventually need to [modify the webpack config](https://cli.vuejs.org/guide/webpack.html#simple-configuration) with `vue.config.js` but you'll be surprised how far you can get without doing that. I try to avoid modifying the generic webpack settings, if possible :pray:. Remember, you'll want to to try to lower the barriers to entry of understanding for other developers in order for them to grasp your design choices. Not only for using, but for debugging (which is probably more likely, TBH).
 
@@ -75,7 +75,7 @@ The directory changes are diffed in the layout below.
 
 ```diff
   .
-- └─ public/
+- ├── public/
   ├── src/
 - │   ├─ assets/
   │   └─ components/
