@@ -27,12 +27,8 @@ copyright = "© 2019 Copyright Stephen Siegert (@siegerts). All rights reserved.
   url = "post/"
 
 [[params.menu]]
-  name = "github"
-  url = "https://github.com/siegerts"
-
-[[params.menu]]
-  name = "gitlab"
-  url = "https://gitlab.com/siegerts"
+  name = "about"
+  url = "about/"
 
 
 [privacy]
