@@ -18,13 +18,13 @@ date = 2019-02-28T12:38:50-05:00
 
 ## Overview
 
-In [the last post](/post/creating-vue-component-library-introduction/) I outlined why it is important to be able to package together a component library. In this post, we'll step through the initial project structure for your Vue components.
+In [the last post](/post/creating-vue-component-library-introduction/), I outlined why it is important to be able to package together a component library. In this post, we'll step through the initial project structure for your Vue components.
 
 ## Vue project structure
 
 We're going to use the [Vue CLI 3](https://cli.vuejs.org/guide/). Bam!
 
-Luckily, a lot of the _once was_ configuration steps are now handled by the CLI, mostly regarding webpack. That's not to say that you won't eventually need to [modify the webpack config](https://cli.vuejs.org/guide/webpack.html#simple-configuration) with `vue.config.js` but you'll be surprised how far you can get without doing that. I try to avoid modifying the generic webpack settings, if possible :pray:. Remember, you'll want to to try to lower the barriers to entry of understanding for other developers in order for them to grasp your design choices. Not only for using, but for debugging (which is probably more likely, TBH).
+Luckily, a lot of the _once was_ configuration steps are now handled by the CLI, mostly regarding webpack. That's not to say that you won't eventually need to [modify the webpack config](https://cli.vuejs.org/guide/webpack.html#simple-configuration) with `vue.config.js` but you'll be surprised how far you can get without doing that. I try to avoid modifying the generic webpack settings, if possible :pray:. Remember, you'll want to to try to lower the barriers to entry of understanding for other developers in order for them to grasp your design choices. Not only for use, but for debugging (which is probably more likely, TBH).
 
 With that in mind, create your Vue project scaffold using the CLI.
 
@@ -62,7 +62,7 @@ Make sure to adjust these options in the future if your preferences change. The 
 
 `vue-component-library` is the name of the component library project (folder, etc.). This _does not_ need to be the same as the programmatic representation of the library. We'll get into that in the upcoming _plugin_ post of the series.
 
-By default, the CLI with create the `scr/components` directory. I consolidate this project directory and project by removing unused items such as `App.vue`, `assets/favicon.ico`, etc. The initial structure is typically used as an application baseline. For a typical web application, I leave the setup as-is. Instead, we'll use VuePress for the documentation site functionality.
+By default, the CLI will create the `src/components` directory. I consolidate this project directory and project by removing unused items such as `App.vue`, `assets/favicon.ico`, etc. The initial structure is typically used as an application baseline. For a typical web application, I leave the setup as-is. Instead, we'll use VuePress for the documentation site functionality.
 
 Next, we'll:
 
@@ -86,7 +86,7 @@ The directory changes are diffed in the layout below.
 You make be thinking..._did we just delete the whole project?_ Nope! The CLI adds a tremendous amount of functionality to your project besides the file layout. Note, `vue-cli-service` and the corresponding `devDependencies` in the generated `package.json`.
 
 {{< tip >}}
-Consider using the above generated view structure as a custom Vue app _or_ [ejecting your VuePress theme](https://vuepress.vuejs.org/default-theme-config/#ejecting) if you'd like less guardrails.
+Consider using the above-generated view structure as a custom Vue app _or_ [ejecting your VuePress theme](https://vuepress.vuejs.org/default-theme-config/#ejecting) if you'd like fewer guardrails.
 {{< /tip >}}
 
 ```json
@@ -181,7 +181,7 @@ So, for each of the files, let's create a placeholder.
 Components do not need to end up completely self-contained (template + script + style) but I like to start with this approach. I refactor, if needed, as the library grows in size or complexity. There are a lot of opinions about (styles with JS) || (CSS in JS). I like to start with a plain ol' SFC + scoped styles and iterate from there.
 {{< /tip >}}
 
-Notice that the component has a `name`. This is very important and will impact our registering the library as a plugin in a few steps. Components are registered and referred to by the `name` attribute. Try to use an identifier that wont collide with other project dependencies or tags.
+Notice that the component has a `name`. This is very important and will impact our registering the library as a plugin in a few steps. Components are registered and referred to by the `name` attribute. Try to use an identifier that won't collide with other project dependencies or tags.
 
 #### `index.js`
 

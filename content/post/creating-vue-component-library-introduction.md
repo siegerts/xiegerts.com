@@ -1,6 +1,6 @@
 +++
 title = "Creating a Vue.js component library: Introduction"
-description = "In this series we’ll focus on structuring a Vue component library as a plugin for use, and _reuse_. That also includes distribution and documentation. That's what is so great about Vue - the ability create your own building blocks for designing a user experience."
+description = "In this series, we’ll focus on structuring a Vue component library as a plugin for use, and _reuse_. That also includes distribution and documentation. That's what is so great about Vue - the ability create your own building blocks for designing a user experience."
 tags = [
     "development", 
     "vue", 
@@ -18,13 +18,13 @@ series = "Vue component library"
 date = 2019-02-27T10:03:55-05:00
 +++
 
-In this series we’ll focus on structuring a Vue component library as a plugin for use, and _reuse_. That also includes distribution and documentation. That's what is so great about Vue - the ability create your own building blocks for designing a user experience. This series of posts _is not_ about writing components, that's a subject for another day.
+In this series, we’ll focus on structuring a Vue component library as a plugin for use, and _reuse_. That also includes distribution and documentation. That's what is so great about Vue - the ability to create your own building blocks for designing a user experience. This series of posts _is not_ about writing components, that's a subject for another day.
 
 ## Context
 
 I like to use existing component libraries until I don’t 😉.
 
-There are many great libraries that already exist in the Vue ecosystem. Adhering to one _theme_ or _design_ system only works for so long, especially if you’re adopting Vue into an enterprise environment. In that case, there is usually a need for some consistency between interfaces (API & UI), style, and UX. For that reason, it’s important to know the basics of setting up your own library in .
+There are many great libraries that already exist in the Vue ecosystem. Adhering to one _theme_ or _design_ system only works for so long, especially if you’re adopting Vue into an enterprise environment. In that case, there is usually a need for some consistency between interfaces (API & UI), style, and UX. For that reason, it’s important to know the basics of setting up your own library.
 
 The information in the next few posts is not earth-shattering, but it’s all in one place. I’ve gone through some of the work of figuring out how the pieces fit together. This is not the end, it is a means to understanding the process to find your _own_ end.
 
