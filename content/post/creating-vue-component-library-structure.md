@@ -44,8 +44,6 @@ After the project is created, and dependencies downloaded, you should see this i
 
 ```
 
-`vue-component-library` is the name of the component library project (folder, etc.). This _does not_ need to be the same as the programmatic representation of the library. We'll get into that in the upcoming _plugin_ post of the series.
-
 When prompted during the project initialization, I choose the below options:
 
 ```
@@ -61,6 +59,8 @@ Vue CLI v3.0.0
 {{< note >}}
 Make sure to adjust these options in the future if your preferences change. The Vue CLI comes bundled with a nifty [GUI](https://cli.vuejs.org/guide/creating-a-project.html#using-the-gui) that makes it easy to add and remove plugins.
 {{< /note >}}
+
+`vue-component-library` is the name of the component library project (folder, etc.). This _does not_ need to be the same as the programmatic representation of the library. We'll get into that in the upcoming _plugin_ post of the series.
 
 By default, the CLI with create the `scr/components` directory. I consolidate this project directory and project by removing unused items such as `App.vue`, `assets/favicon.ico`, etc. The initial structure is typically used as an application baseline. For a typical web application, I leave the setup as-is. Instead, we'll use VuePress for the documentation site functionality.
 
