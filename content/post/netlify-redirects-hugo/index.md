@@ -24,7 +24,7 @@ The initial jump into the `netlify.toml` file is a bit daunting at first, especi
 
 ### netlify.toml
 
-Create a `netlify.toml` file in the root directory of your Hugo site. This file can be set up to do a [quite a bit](https://www.netlify.com/docs/netlify-toml-reference/). For our purposes, we'll only configure the provided _redirect_ from the deployment.
+Create a `netlify.toml` file in the root directory of your Hugo site. This file can be set up to do [quite a bit](https://www.netlify.com/docs/netlify-toml-reference/). For our purposes, we'll only configure the provided _redirect_ from the deployment.
 
 ```diff
   .
