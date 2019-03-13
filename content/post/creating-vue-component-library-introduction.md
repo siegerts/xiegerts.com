@@ -1,6 +1,6 @@
 +++
 title = "Creating a Vue.js component library: Introduction"
-description = "In this series, we’ll focus on structuring a Vue component library as a plugin for use, and _reuse_. That also includes distribution and documentation. That's what is so great about Vue - the ability create your own building blocks for designing a user experience."
+description = "In this series, we’ll focus on structuring a Vue component library as a plugin for use, and reuse. That also includes distribution and documentation. That's what is so great about Vue - the ability create your own building blocks for designing a user experience."
 tags = [
     "development", 
     "vue", 
