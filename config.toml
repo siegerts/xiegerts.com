@@ -35,6 +35,11 @@ copyright = "© 2019 Copyright Stephen Siegert (<a href='https://twitter.com/sie
   url = "about/"
 
 
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
 [privacy]
   [privacy.googleAnalytics]
     anonymizeIP = true
