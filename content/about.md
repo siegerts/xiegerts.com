@@ -4,7 +4,7 @@ title = "About"
 date = 2019-03-03T19:29:36-05:00
 +++
 
-I like to keep things simple. That, and emojis :dog:.
+I like to keep things simple. That, and emoji :dog:.
 
 #### Get in touch
 
