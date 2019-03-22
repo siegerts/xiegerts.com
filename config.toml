@@ -27,6 +27,10 @@ copyright = "© 2019 Copyright Stephen Siegert (<a href='https://twitter.com/sie
   url = "post/"
 
 [[params.menu]]
+  name = "series"
+  url = "series/"
+
+[[params.menu]]
   name = "about"
   url = "about/"
 
