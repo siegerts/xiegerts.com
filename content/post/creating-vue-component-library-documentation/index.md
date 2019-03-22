@@ -1,6 +1,6 @@
 +++
 title = "Using VuePress for plugin documentation"
-description = ""
+description = "Documentation time! In this post, we'll add a documentation element to the Vue component library plugin using VuePress. The end state of this post will be a static site that is structured to document a component library that exists in the same project. The component will generate its own documentation!"
 tags = [
     "documentation", 
     "component library",
