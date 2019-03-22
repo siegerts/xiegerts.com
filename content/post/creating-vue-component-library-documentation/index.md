@@ -244,15 +244,15 @@ module.exports = {
 
 Let's step through this a bit:
 
-- Set the root locale as `en-US` with the appropriate site title
+- Set the root locale as `en-US` with the appropriate site title.
 
-- Add the `themeConfig`
+- Add the `themeConfig`.
 
 - The `nav` field takes a list of links that will be present along the top navigation of the site. The first link will point to `/guide` which displays the `guide.md` file that we created.
 
 - The second link in `nav` points to `/components/` directory in `/.vuepress` that will contain the markdown files that document each component.
 
-- The last link points to an external link, the GitHub repo link
+- The last link points to an external link, the GitHub repo link.
 
 - Next, we add `sidebar`. In here, the above `/components` route is referenced. When that route is accessed, sidebar navigation will be present showing any available children routes.
 
