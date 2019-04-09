@@ -6,11 +6,14 @@ tags = [
   "VS Code", 
   "Vetur",
   "Prettier",
+  "eslint",
   "prettyhtml"
   ]
 categories = ["Development"]
 
 date = 2019-02-26T11:52:01-05:00
+
+lastMod = 2019-04-09T11:52:01-05:00
 
 [[resources]]
   name = "settings"
@@ -76,5 +79,26 @@ These are a few of the stylistic preferences that I apply with Prettier. To use 
 module.exports = {
   semi: false,
   singleQuote: true
+}
+```
+
+## `.eslintrc.js`
+
+These [ESLint](https://eslint.org/) settings coincide with the settings above. The Vue CLI generates this file on project initialization.
+
+```js
+module.exports = {
+  root: true,
+  env: {
+    node: true
+  },
+  extends: ['plugin:vue/essential', '@vue/prettier'],
+  rules: {
+    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+  },
+  parserOptions: {
+    parser: 'babel-eslint'
+  }
 }
 ```
