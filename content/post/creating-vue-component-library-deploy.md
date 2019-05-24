@@ -4,8 +4,8 @@ description = "Documentation is no fun if it isn't public. Now, having configure
 
 tags = [
   "development", 
-  "vuepress", 
-  "netlify",
+  "VuePress", 
+  "Netlify",
   "static site",
   "documentation", 
   "deploy"]
