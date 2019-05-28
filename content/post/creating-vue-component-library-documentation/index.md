@@ -588,6 +588,6 @@ Notice anything? The markdown is using the `Demo.vue` and `SourceCode.vue` compo
 
 Wow, that escalated quickly :wink:. This is a general setup that can be repeated as new components are added to the plugin - add another example Vue file and a markdown component file. Now, when you make changes in development mode, the site will immediately reflect those changes.
 
-In the next post, we'll deploy the new documentation site to Netlify. After that, we'll publish the component library plugin available for distribution by publishing on **npm**.
+In the next post, we'll [deploy the new documentation site to Netlify](/post/creating-vue-component-library-deploy/). After that, we'll publish the component library plugin available for distribution by publishing on **npm**.
 
 As always, please reach out if you have any questions or advice :dog:.
