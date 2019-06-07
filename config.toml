@@ -17,6 +17,7 @@ copyright = "© 2019 Copyright Stephen Siegert (<a href='https://twitter.com/sie
 [params]
   titleEmoji = ":coffee: :dog:"
   twitter = "siegerts"
+  description = "Thoughts, comments, and technology commentary."
 
 [Permalinks]
   blog = "blog/:slug"
