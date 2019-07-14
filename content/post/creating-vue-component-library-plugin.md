@@ -40,7 +40,7 @@ Starting off, let's remove the generated code. We'll replace with the difference
 
 + import * as components from './components'
 +
-+ const ComponentLibary = {
++ const ComponentLibrary = {
 +  install(Vue, options = {}) {
 +    // components
 +    for (const componentName in components) {
@@ -51,10 +51,10 @@ Starting off, let's remove the generated code. We'll replace with the difference
 +  }
 + }
 +
-+ export default ComponentLibary
++ export default ComponentLibrary
 +
 + if (typeof window !== 'undefined' && window.Vue) {
-+  window.Vue.use(ComponentLibary)
++  window.Vue.use(ComponentLibrary)
 + }
 ```
 
@@ -65,7 +65,7 @@ The file should look like:
 
 import * as components from './components'
 
-const ComponentLibary = {
+const ComponentLibrary = {
   install(Vue, options = {}) {
     // components
     for (const componentName in components) {
@@ -76,10 +76,10 @@ const ComponentLibary = {
   }
 }
 
-export default ComponentLibary
+export default ComponentLibrary
 
 if (typeof window !== 'undefined' && window.Vue) {
-  window.Vue.use(ComponentLibary)
+  window.Vue.use(ComponentLibrary)
 }
 ```
 
