@@ -8,7 +8,7 @@ I'm currently a Solutions Engineer at [RStudio](https://www.rstudio.com/) remote
 
 After school, I began working for a digital marketing agency building predictive models for search engine marketing (and optimization) campaigns at the keyword and ad group levels. This was my first professional programming experience - programming in SAS and SQL, mostly in the scientific and analytics realm. Lots of [ARIMA](https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average) models :smile:.
 
-Fast forward through an 8 year stint at SAS working in consulting, product management, and software development [management]. Over time, I've gravitated away from SAS programming to Python for general purpose programming and dug deep into Vue.js as a JavaScript framework of choice. I also use and dabble in other tech depending on the need and project. That said, I _really enjoy_ creating and building applications (across the stack) that focus on simplicity-of-use.
+Fast forward through an 8 year stretch at SAS working in consulting, product management, and software development [management]. Over time, I've gravitated away from SAS programming to Python for general purpose programming and dug deep into Vue.js as a JavaScript framework of choice. I also use and dabble in other tech depending on the need and project. That said, I _really enjoy_ creating and building applications (across the stack) that focus on simplicity-of-use.
 
 What can I say, I try to keep things simple. That, and emoji :dog:.
 
