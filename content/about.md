@@ -4,11 +4,17 @@ title = "About"
 date = 2019-03-03T19:29:36-05:00
 +++
 
-Solutions engineer at [RStudio](https://www.rstudio.com/). I like to keep things simple. That, and emoji :dog:.
+I'm currently a Solutions Engineer at [RStudio](https://www.rstudio.com/) remotely based in Pittsburgh, PA. I have a degree in Economics with a focus in Statistics.
+
+After school, I began working for a digital marketing agency building predictive models for search engine marketing (and optimization) campaigns at the keyword and ad group levels. This was my first professional programming experience - programming in SAS and SQL, mostly in the scientific and analytics realm. Lots of [ARIMA](https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average) models :smile:.
+
+Fast forward through an 8 year stint at SAS working in consulting, product management, and software development [management]. Over time, I shifted away from SAS programming to Python for general purpose programming and dug deep into Vue.js as a JavaScript framework of choice. I've used and dabbled in other tech too depending on the need and use-case. That said, I _really enjoy_ creating and building applications (across the stack) that focus on simplicity-of-use.
+
+What can I say, I try to keep things simple. That, and emoji :dog:.
 
 #### Get in touch
 
-Find me on [GitHub](https://github.com/siegerts), [GitLab](https://gitlab.com/siegerts), and [Twitter](https://twitter.com/siegerts).
+Find me on [GitHub](https://github.com/siegerts), [GitLab](https://gitlab.com/siegerts), [LinkedIn](https://www.linkedin.com/in/siegerts/), and [Twitter](https://twitter.com/siegerts).
 
 #### Stay up to date on posts :mailbox_with_mail:
 
