@@ -8,7 +8,7 @@ I'm currently a Solutions Engineer at [RStudio](https://www.rstudio.com/) remote
 
 After school, I began working for a digital marketing agency building predictive models for search engine marketing (and optimization) campaigns at the keyword and ad group levels. This was my first professional programming experience - programming in SAS and SQL, mostly in the scientific and analytics realm. Lots of [ARIMA](https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average) models :smile:.
 
-Fast forward through an 8 year stint at SAS working in consulting, product management, and software development [management]. Over time, I shifted away from SAS programming to Python for general purpose programming and dug deep into Vue.js as a JavaScript framework of choice. I've used and dabbled in other tech too depending on the need and use-case. That said, I _really enjoy_ creating and building applications (across the stack) that focus on simplicity-of-use.
+Fast forward through an 8 year stint at SAS working in consulting, product management, and software development [management]. Over time, I've gravitated away from SAS programming to Python for general purpose programming and dug deep into Vue.js as a JavaScript framework of choice. I also use and dabble in other tech depending on the need and project. That said, I _really enjoy_ creating and building applications (across the stack) that focus on simplicity-of-use.
 
 What can I say, I try to keep things simple. That, and emoji :dog:.
 
@@ -31,9 +31,9 @@ Find me on [GitHub](https://github.com/siegerts), [GitLab](https://gitlab.com/si
   <label for="bd-email" class="f6 db">Enter your email:</label>
 
   <div class="flex ">
-  <input type="email" name="email" id="bd-email" class="dib input-reset pa2 ba b--moon-gray bg-transparent w-70">
+  <input type="email" name="email" id="bd-email" class="dib input-reset pa2 ba b--moon-gray bg-transparent w-70 br1">
 
-<button type="submit" class="dib ml3 b ph3 pv2 input-reset bg-transparent ba b--black f6 shadow-hover tc">
+<button type="submit" class="dib ml3 b ph3 pv2 input-reset bg-transparent ba b--moon-gray f6 shadow-hover tc br1">
     Subscribe :rocket:
 </button>
 </div>
