@@ -6,7 +6,7 @@ date = 2019-03-03T19:29:36-05:00
 
 I'm currently a Solutions Engineer at [RStudio](https://www.rstudio.com/) remotely based in Pittsburgh, PA. I have a degree in Economics with a focus in Statistics.
 
-After school, I began working for a digital marketing agency building predictive models for search engine marketing (and optimization) campaigns at the keyword and ad group levels. This was my first professional programming experience - programming in SAS and SQL, mostly for data science and analytics. Lots of [ARIMA](https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average) models :smile:...but I got hooked on the ability to create.
+After school, I began working for a digital marketing agency building predictive models for search engine marketing (and optimization) campaigns at the keyword and ad group levels. This was my first professional programming experience - programming in SAS and SQL, mostly for data science and analytics. Lots of [ARIMA](https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average) models...but I got hooked on the ability to create :smile:.
 
 Fast forward through an 8 year stretch at SAS working in consulting, product management, and software development [management]. Over time, I've gravitated away from the data analysis arena into a more engineering-centric space using Python for general purpose programming and have dug deep into Vue.js as a JavaScript framework of choice. I also use and dabble in other tech depending on the need and project. That said, I _really enjoy_ creating and building applications (across the stack) that focus on simplicity-of-use.
 
