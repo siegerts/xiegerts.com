@@ -33,7 +33,7 @@ This is where you will need to choose your package name and permissions. It make
 
 {{< warning >}}
 
-Check for package name availability before ... I don't know ... buying a domain name!
+Check for package name availability before buying a domain name!
 
 {{< /warning >}}
 
