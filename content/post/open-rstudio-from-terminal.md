@@ -53,6 +53,6 @@ will either yield
 No .Rproj file found in directory.
 ```
 
-or open the current directory's project in RStudio.
+or open the project in the current working directory in RStudio.
 
 Have fun :rocket: :sparkles:
