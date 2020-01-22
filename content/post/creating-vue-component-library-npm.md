@@ -21,7 +21,7 @@ series = "Vue Component Library"
 date = 2020-01-04T12:38:20-05:00
 +++
 
-The last step in creating a Vue component library plugin is to publish it as a package. Most packages are published on npm if the intention is to distribute to an external audience. Other registry options include[GitHub Package Registry](https://github.com/features/packages) and [Artifactory](https://www.jfrog.com/confluence/display/RTF/Npm+Registry). It is also possible to run your own [private registry](https://docs.npmjs.com/misc/registry#can-i-run-my-own-private-registry).
+The last step in creating a Vue component library plugin is to publish it as a package. Most packages are published on npm if the intention is to distribute to an external audience. Other registry options include [GitHub Package Registry](https://github.com/features/packages) and [Artifactory](https://www.jfrog.com/confluence/display/RTF/Npm+Registry). It is also possible to run your own [private registry](https://docs.npmjs.com/misc/registry#can-i-run-my-own-private-registry).
 
 In this post, I'll explain the process to publish to npm. Similar steps can be taken to use a different registry if it also utilizes the `npm` (or `yarn`) CLI API conventions.
 
