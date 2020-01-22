@@ -6,7 +6,7 @@ tags = [
   "rstudio",
   "vs code",
   "r lang",
-  ".rproj"
+  "rstats",
   ]
 categories = ["Development"]
 date = 2020-01-06T12:32:05-05:00
