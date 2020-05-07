@@ -1,10 +1,10 @@
 +++
 title = "About"
 
-date = 2019-03-03T19:29:36-05:00
+date = 2020-04-05T19:29:36-05:00
 +++
 
-I enjoy creating and building applications that focus on simplicity-of-use.
+Working on [lowercase.app](https://www.lowercase.app).
 
 I try to keep things simple. That, and emoji :dog:.
 
