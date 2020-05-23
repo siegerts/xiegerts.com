@@ -30,7 +30,7 @@ The information in the next few posts is not earth-shattering, but it’s all in
 
 {{< note >}}
 
-As an aside, while thinking through this project (and others), I've come around to the idea of [renderless](https://adamwathan.me/renderless-components-in-vuejs/) components for reuse. This series will not focus building out a generic _renderless_ component library but it's worth a read if you're not familiar.
+As an aside, while thinking through this project (and others), I've come around to the idea of [renderless](https://adamwathan.me/renderless-components-in-vuejs/) components for reuse. This series will not focus on building out a generic _renderless_ component library but it's worth a read if you're not familiar.
 
 {{< /note >}}
 
