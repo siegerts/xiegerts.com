@@ -8,6 +8,12 @@ Working on <a href="https://www.lowercase.app" target="_blank">lowercase.app</a>
 
 I try to keep things simple. That, and emoji :dog:.
 
+#### Keeping busy with
+
+<a href="https://www.lowercase.app/@stephen/p/131e50ec-cc1a-4045-a4ae-9cfd85afe7ab/" target="_blank">Working out at home</a>
+
+<a href="https://www.vueweekly.dev/" target="_blank">VueWeekly.dev</a>
+
 #### Get in touch
 
 Find me on [Twitter](https://twitter.com/siegerts), [GitHub](https://github.com/siegerts), and [LinkedIn](https://www.linkedin.com/in/siegerts/).
