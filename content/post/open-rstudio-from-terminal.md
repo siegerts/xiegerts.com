@@ -24,7 +24,7 @@ $ code .
 
 Place the function below in your `.zshrc` or comparable `.bashrc` configuration and re-source:
 
-```zsh
+```bash
 rs () {
   if [ -z "$1" ] ; then
     dir="."

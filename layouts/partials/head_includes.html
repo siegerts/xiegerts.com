@@ -1,8 +1,8 @@
+<!-- prettier-ignore -->
 {{ $tachyons := resources.Get "css/vendor/tachyons.min.css" }}
 {{ $customCss := resources.Get "css/style.css"}}
-{{ $hljsTheme := resources.Get "css/vendor/github-gist.css" }}
 
-{{ $style := slice $tachyons $customCss $hljsTheme | resources.Concat "css/style.css" | resources.Minify }}
+{{ $style := slice $tachyons $customCss | resources.Concat "css/style.css" | resources.Minify }}
 
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
 

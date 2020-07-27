@@ -8,6 +8,22 @@ enableEmoji = true
 GoogleAnalytics = "UA-134038089-1"
 copyright = "© 2020 Copyright Stephen Siegert (<a href='https://twitter.com/siegerts' class='link black-40'>@siegerts</a>). All rights reserved."
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+    [markup.highlight]
+      codeFences = true
+      guessSyntax = false
+      hl_Lines = ""
+      lineNoStart = 1
+      lineNos = false
+      lineNumbersInTable = true
+      noClasses = true
+      style = "github"
+      tabWidth = 4
+
 
 [taxonomies]
   category = "categories"
@@ -15,7 +31,7 @@ copyright = "© 2020 Copyright Stephen Siegert (<a href='https://twitter.com/sie
   tag = "tags"
 
 [params]
-  titleEmoji = ":coffee: :dog:"
+  titleEmoji = ":coffee: \n :dog:"
   twitter = "siegerts"
   description = "Thoughts, comments, and technology commentary."
 

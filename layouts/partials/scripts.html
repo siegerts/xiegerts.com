@@ -1,9 +1,1 @@
-{{ $hljs := resources.Get "js/vendor/highlight.min.js" }}
 
-{{ $js := slice $hljs | resources.Concat "js/bundle.js" | resources.Minify }}
-
-<script src="{{ $js.RelPermalink }}"></script>
-
-<script>
-  hljs.initHighlightingOnLoad()
-</script>

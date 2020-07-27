@@ -57,7 +57,7 @@ Below is an example `package.json` as a reference when crafting your own based o
 
 A full reference of all available options with explanations is available in the [npm documentation](https://docs.npmjs.com/files/package.json).
 
-```json
+```js
 {
  // name of the library on npm!
  "name": "vue-example-pkg",
@@ -162,7 +162,7 @@ For reference:
 
 The lines referencing the CDNs will chose a file to distribute, and make available on each CDN, respectively. This is nice if you want your package to be available to those not using a local package manager in their projects.
 
-```json
+```js
 "unpkg": "dist/vue-example-pkg.umd.min.js",
 "jsdelivr": "dist/vue-example-pkg.umd.min.js",
 ```

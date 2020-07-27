@@ -11,7 +11,8 @@ code {
   /* border-radius: 4px; */
 }
 
-pre {
+pre > code {
+  background-color: #ffffff;
   display: block;
   padding: 9.5px;
   margin: 0 0 10px;
@@ -19,6 +20,7 @@ pre {
   word-break: break-all;
   word-wrap: break-word;
   border: 1px solid #ccc;
+  overflow-y: auto;
   /* border-radius: 4px; */
 }
 

@@ -157,7 +157,7 @@ Vue.prototype.$myMethod = function (methodOptions) {
 
 Also, always remember to populate a `name` attribute in your components if using the `Vue.component` and `component.name` approach above. The registration will throw an error if `component.name` doesn't exist.
 
-```html
+```vue
 <template>
   <div>
     <slot></slot>
