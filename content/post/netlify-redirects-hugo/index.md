@@ -49,7 +49,7 @@ The example below illustrates a site that has HTTPS enabled through Netlify. Not
 
 ```sh
 # Redirect default Netlify subdomain to primary domain
-https://<your-site-name>.netlify.com/* https://www.<your-custom-domain>/:splat 301!
+https://<your-site-name>.netlify.app/* https://www.<your-custom-domain>/:splat 301!
 ```
 
 Modify the `netlify.toml`:
@@ -58,7 +58,7 @@ Modify the `netlify.toml`:
 # netlify.toml
 
 [[redirects]]
-  from = "https://<your-site-name>.netlify.com/*"
+  from = "https://<your-site-name>.netlify.app/*"
   to = "https://www.<your-custom-domain>/:splat"
   status = 301
   force = true #COMMENT: ensure that we always redirect
