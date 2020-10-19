@@ -182,3 +182,8 @@ $ yarn publish  # or npm publish
 I'm a realist :innocent:. There _will_ be hang ups going through this process to get it exactly right for your project. That's okay. Remember to have fun. There are a lot of commands and options. The important thing is to get a solid foundation working and then iterate and tweak from that point :thumbsup:.
 
 Hope that the series has been helpful! If so (or not!), let me know - [@siegerts](https://twitter.com/siegerts).
+
+
+---
+
+Interested in more Vue related posts? Check out [VueWeekly](https://vueweekly.dev), a weekly digest of Vue.js related posts and updates.

@@ -110,3 +110,8 @@ The redirect will take effect on the next `git push` to the repo.
 ## Next steps
 
 [Publish to npm](/post/creating-vue-component-library-npm/)!
+
+---
+
+Interested in more Vue related posts? Check out [VueWeekly](https://vueweekly.dev), a weekly digest of Vue.js related posts and updates.
+
