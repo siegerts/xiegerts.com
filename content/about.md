@@ -10,6 +10,10 @@ projects
 
 - [lowercase.app](https://www.lowercase.app) - a simple way to take and share notes
 
+- [LineupGen](https://www.lineupgen.com) - The quickest way to generate unique Daily Fantasy Sports lineups, with one simple spreadsheet formula.
+
+- [LineupGen Weekly](https://www.lineupgen.com/newsletter/) - Free Daily Fantasy Sports lineups in your inbox.
+
 - [Vue weekly](https://www.vueweekly.dev/) - a free, weekly email digest of Vue.js news and articles
 
 - [Hugo basic theme](https://themes.gohugo.io/hugo-theme-basic/) - a free theme template for the Hugo framework (used for this site)
