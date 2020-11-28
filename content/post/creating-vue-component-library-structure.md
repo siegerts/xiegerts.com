@@ -86,7 +86,7 @@ The directory changes are diffed in the layout below.
 You make be thinking..._did we just delete the whole project?_ Nope! The CLI adds a tremendous amount of functionality to your project besides the file layout. Note, `vue-cli-service` and the corresponding `devDependencies` in the generated `package.json`.
 
 {{< tip >}}
-Consider using the above-generated view structure as a custom Vue app _or_ [ejecting your VuePress theme](https://vuepress.vuejs.org/default-theme-config/#ejecting) if you'd like fewer guardrails.
+Consider using the above-generated view structure as a custom Vue app _or_ [ejecting your VuePress theme](https://vuepress.vuejs.org/theme/default-theme-config.html#ejecting) if you'd like fewer guardrails.
 {{< /tip >}}
 
 ```json
