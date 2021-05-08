@@ -1,20 +1,23 @@
 +++
 title = "About"
 
-date = 2020-05-19T19:29:36-05:00
+date = 2021-05-07T19:29:36-05:00
 +++
 
 I try to keep things simple. That, and emoji :dog:.
+
+currently
+
+- Open Source Solutions Architect @ [AWS Amplify](https://aws.amazon.com/amplify/)
+ 
 
 projects
 
 - [lowercase.app](https://www.lowercase.app) - a simple way to take and share notes
 
-- [LineupGen](https://www.lineupgen.com) - The quickest way to generate unique Daily Fantasy Sports lineups, with one simple spreadsheet formula.
+- [LineupGen](https://www.lineupgen.com) - The quickest way to generate unique Daily Fantasy Sports lineups, with one simple spreadsheet formula or API call.
 
-- [LineupGen Weekly](https://www.lineupgen.com/newsletter/) - Free Daily Fantasy Sports lineups in your inbox.
-
-- [Vue weekly](https://www.vueweekly.dev/) - a free, weekly email digest of Vue.js news and articles
+- [Vue Weekly](https://www.vueweekly.dev/) - a free, weekly email digest of Vue.js news and articles
 
 - [Hugo basic theme](https://themes.gohugo.io/hugo-theme-basic/) - a free theme template for the Hugo framework (used for this site)
 
