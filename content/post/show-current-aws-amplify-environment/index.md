@@ -87,7 +87,7 @@ If you're using `oh-my-zsh`, then you can adjust your theme (or any theme) to ad
 
 ### Amplify `env` + Git branch = 🔥
 
-Now the environment is displayed alongside the Git branch that is active. This is a nice way to quickly determine if I need to switch branches or environments to match.
+Now the environment is displayed alongside the Git branch that is active. This is a nice way to quickly determine if I need to switch branches or environments to match. Make sure to initialize Git in the project(`git init`) if the environment name and the Git branch aren't showing.
 
 
 {{< image src="images/amplify-env-terminal.png" class="w-100 mh0 mb3" >}}
