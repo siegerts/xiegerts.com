@@ -301,7 +301,7 @@ REST API endpoint: https://<id>.execute-api.<region>.amazonaws.com
 After being deployed, the API can be accessed using the endpoint above:
 
 
-Also, the live API documentation is live at the **https://<endpoint>/docs` and `https://<endpoint>/redoc`.
+Also, the live API documentation is live at the `https://<endpoint>/docs` and `https://<endpoint>/redoc`.
 
 
 ### `/docs` route
