@@ -13,7 +13,7 @@ tags = [
 ]
 date = 2021-05-08T12:08:30-04:00
 categories = ["Development", "Tooling"]
-# series = "100 Days of AWS Amplify"
+series = "100 Days of AWS Amplify"
 
 [[resources]]
   name = "amplify-environment"
@@ -25,7 +25,7 @@ categories = ["Development", "Tooling"]
 
 {{< note >}}
 
-This post is part of an ongoing series focused on tips, tricks, and hidden gems when building fullstack serverless apps with [AWS Amplify](https://docs.amplify.aws/).
+This post is part of an ongoing [series](/series/100-days-of-aws-amplify/) focused on tips and tricks when building fullstack serverless apps with [AWS Amplify](https://docs.amplify.aws/).
 
 {{< /note >}}
 
@@ -92,6 +92,6 @@ Now the environment is displayed alongside the Git branch that is active. This i
 
 {{< image src="images/amplify-env-terminal.png" class="w-100 mh0 mb3" >}}
 
-
+<br />
 
 Hopefully that helps keep your Amplify environments visually in sync with your current Git branch 🌲.
