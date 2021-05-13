@@ -44,7 +44,7 @@ One way to bridge the gap between applications is to allow for service-to-servic
 **AWS Amplify provides a great option for this - Serverless containers using API Gateway + AWS Fargate.**
 
 
-This guide will follow the steps outlined in the [Serverless containers](https://docs.amplify.aws/cli/usage/containers) outlined in the Amplify documentation and the [FastAPI Docker Deployment](https://fastapi.tiangolo.com/deployment/docker/) documentation to quickly create and deploy a production-ready, scalable REST API.
+This guide will follow the steps outlined in the [Serverless containers](https://docs.amplify.aws/cli/usage/containers) section of the Amplify documentation and the [FastAPI Docker Deployment](https://fastapi.tiangolo.com/deployment/docker/) documentation to quickly create and deploy a production-ready, scalable REST API.
 
 
 ### Prerequisites
@@ -57,7 +57,7 @@ You'll need to have the below installed and configured.
 
 ### FastAPI
 
-As mentioned above, we'll use FastAPI as the backend framework. The application pattern will should feel natural if you're familiar with [Flask](https://flask.palletsprojects.com/en/2.0.x/).
+As mentioned above, we'll use FastAPI as the backend framework. The application pattern will feel natural if you're familiar with [Flask](https://flask.palletsprojects.com/en/2.0.x/).
 
 FastAPI has quickly become a go-to framework for setting up APIs for data science and analytics-based workloads. From the project page: 
 
