@@ -209,7 +209,7 @@ COPY ./app /app
 
 {{< warning >}}
 
-Make sure to add `EXPOSE 80` to to specify a port to communicate with the container. Amplify will suggest to use port 80 if you don't provide one.
+Make sure to add `EXPOSE 80` to specify a port to communicate with the container. Amplify will suggest to use port 80 if you don't provide one.
 
 {{< /warning >}}
 
