@@ -39,7 +39,7 @@ contact
 
 
 support 
-- [buy me a :coffee:](https://www.buymeacoffee.com/siegerts)
+- [buy me a coffee :coffee:](https://www.buymeacoffee.com/siegerts)
 
 
 stay up to date
