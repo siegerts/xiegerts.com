@@ -15,6 +15,7 @@ tags = [
     "bolt-python",
 ]
 
+thumbnail = "images/slack-python-amplify-header.png"
 date = 2021-05-24T21:47:41-04:00
 categories = ["Development", "Serverless"]
 series = "100 Days of AWS Amplify"
@@ -430,6 +431,8 @@ Once you start listening for other events, you'll need to verify your endpoint c
 
 
 Hope that helps! :rocket:
+
+
 
 
 
