@@ -1,6 +1,6 @@
 +++
-title = "Building and deploying a Slack app with AWS Amplify and bolt-python"
-description = "Building and deploying a Slack app with AWS Amplify, Python, and bolt-python"
+title = "Building and deploying a Slack app with Python, Bolt, and AWS Amplify"
+description = "Building and deploying a Slack app with AWS Amplify, Python, and Bolt"
 
 tags = [
     "development", 
@@ -11,7 +11,8 @@ tags = [
     "serverless",
     "python",
     "slash command",
-    "lambda"
+    "lambda",
+    "bolt-python",
 ]
 
 date = 2021-05-24T21:47:41-04:00
@@ -28,7 +29,7 @@ This post is part of an ongoing [series](/series/100-days-of-aws-amplify/) focus
 {{< /note >}}
 
 
-Slack apps and bots are a handy way to automate and streamline repetitive tasks. Slack's [bolt-python](https://api.slack.com/start/building/bolt-python) consolidates the different mechanisms to capture Slack interactions into a single library. 
+Slack apps and bots are a handy way to automate and streamline repetitive tasks. Slack's [Bolt](https://api.slack.com/start/building/bolt-python) framework consolidates the different mechanisms to capture and interact with Slack events into a single library. 
 
 From the [Slack Bolt documentation](https://api.slack.com/tools/bolt):
 
@@ -40,17 +41,22 @@ From the [Slack Bolt documentation](https://api.slack.com/tools/bolt):
 > _Respond to slash commands, shortcuts, and interactive messages_
 > _Use a wide library of Web API methods_
 
+<br />
 
 In my experience, this has made it straight forward to combine functionality instead of having multiple apps all handling different elements of Slack's API ecosystem.
 
-There is a **ton** that you can do combining this library with the Amplify toolchain. So, let's whip something up quickly using Python :snake:!
+There is a **ton** that you can do combining this library with the Amplify toolchain. So, let's create an app using Python :snake:!
 
 We'll create a simple Slack app that's triggered when the `/start-process` slash command is run from within Slack.
+
+{{< image src="images/slack-command-type.png" class="w-80 mh0 mb3 ba b--near-white" >}}
+
+<br />
 
 
 # Set up your Amplify project
 
-This is standard procedure: 
+This is the standard procedure. The project name used is `slackamplify`.
 
 ```bash
 ? Enter a name for the project slackamplify
@@ -103,7 +109,7 @@ Successfully added resource slackpythonfunction locally.
 <br />
 
 
-## Update the function 
+## Set up the function's virtual environment 
 
 On to the function!
 
@@ -132,7 +138,7 @@ A quick reminder - Pipenv differs slightly from other Python virtual environment
 {{< /tip >}}
 
 
-### Activate the virtual env
+### Activate the virtual environment
 
 ```bash
 pipenv shell
@@ -151,18 +157,26 @@ If you want to share dependencies, or code, across functions then you'll want to
 {{< /note >}}
 
 
-Now, installed the required dependencies:
+Now, install the required dependencies:
 
+<div class="mv4">
 
 ```bash
 pipenv install slack_bolt
 ```
 
-After installing the first dependency, you should now also see a **Pipfile.lock** file in the directory.  
+</div>
+
+
+After installing the first dependency, you will see a **Pipfile.lock** file in the directory.  
+
+<div class="mv4">
 
 ```bash
 pipenv install python-lambda
 ```
+
+</div>
 
 The **Pipfile** will now list the above dependencies that you installed.
 
@@ -188,7 +202,7 @@ The **Pipfile** will now list the above dependencies that you installed.
 
 ## Update the Lambda function
 
-At this point, we'll use the the placeholder Lambda function from the [Example with AWS Lambda](https://slack.dev/bolt-python/concepts#lazy-listeners) in the **bolt-python** documentation. It may be collapsed _and at the bottom of the page_, so double check that you're looking at the right snippet.
+At this point, we'll use the the placeholder Lambda function from the [Example with AWS Lambda](https://slack.dev/bolt-python/concepts#lazy-listeners) in the **Bolt** documentation. It may be collapsed _and at the bottom of the page_, so double check that you're looking at the right snippet.
 
 
 ```python
@@ -227,9 +241,9 @@ I recommend reading through [this GitHub](https://github.com/slackapi/bolt-pytho
 
 <br />
 
-### Update the function's IAM policy 
+### Adjusting the function's IAM policy 
 
-You'll need to add the adjust policy below for your Lambda function as mentioned in the **bolt-python** docs.
+You'll need to add the adjust policy below for your Lambda function as mentioned in the **Bolt** docs.
 
 ```json
 {
@@ -248,7 +262,11 @@ You'll need to add the adjust policy below for your Lambda function as mentioned
 }
 ```
 
-To do so, adjust the `lambdaexecutionpolicy` in the `<project>/amplify/backend/function/<function-name>/<function-name>-cloudformation-template.json` to add the above statement.
+<div class="mv4">
+
+To do so, adjust the `lambdaexecutionpolicy` in the **<project>/amplify/backend/function/\<function-name\>/\<function-name\>-cloudformation-template.json** to add the above statement.
+
+</div>
 
 ```diff
 "lambdaexecutionpolicy": {
@@ -305,13 +323,18 @@ Current Environment: dev
 ? Are you sure you want to continue? (Y/n) Yes
 ```
 
-Once this is deployed, the URL can be used in the next step (Creating the Slack app).
+<div class="mv4">
+Once this is deployed, the URL can be used in the next step (Create the Slack app).
+
+</div>
 
 ```bash
 REST API endpoint: https://<id>.execute-api.<region>.amazonaws.com/dev
 ```
 
-We now have a 90% of a Slack app deployed. The app needs environment variables to be complete but we can only get those once we create a new app in Slack. So, let's do that. 
+
+
+We now have 90% of the Slack app deployed. The app needs environment variables to be complete but we can only get those once we create a new app in Slack. So, let's do that. 
 
 <br />
 
@@ -319,17 +342,25 @@ We now have a 90% of a Slack app deployed. The app needs environment variables t
 
 Now, you'll need to head over to Slack to create (if it doesn't exist) and link the app to the Amplify API.
 
-1. Go to https://api.slack.com/apps and **Create new app** > **From scratch**
+1. Go to https://api.slack.com/apps and **Create new app** > **From scratch**. Use the endpoint from the API above!
+
+
 
 {{< image src="images/create-new-command.png" class="w-80 mh0 mb3 ba b--near-white" >}}
+
+<br />
 
 2. **Select Name & workspace**
 
 {{< image src="images/name-workspace.png" class="w-80 mh0 mb3" >}}
 
+<br />
+
 3. **Basic information** > **Add features & functionality** > **Slash commands**
 
 {{< image src="images/name-workspace.png" class="w-80 mh0 mb3" >}}
+
+<br />
 
 4. **Basic information** > **Install your app**
 
@@ -337,23 +368,25 @@ Now, you'll need to head over to Slack to create (if it doesn't exist) and link 
 
 <br />
 
-## Update the Lambda function environment variables
+## Update the Lambda function's environment variables
 
-Slack will generate the required tokens/secrets that you'll need to populate into your function via environment variables once the app and command are set up.
+Slack will generate the required tokens and secrets that you'll need to populate into your function with environment variables once the app and command are set up.
 
-|What | Where to find it |
-|:-----|:-------------------------------|
-|`SLACK_SIGNING_SECRET`|**Basic information** > **App credentials**|
-|`SLACK_BOT_TOKEN`|**OAuth & Permissions** > starts with `xoxo-`|
 
-Add the above variables with token values to the function in Lambda. To add environment variables, go to **Configuration** > **Environment variables**.
+Add the below variable/token pairs to the function in Lambda. To add environment variables, go to **Configuration** > **Environment variables** in the AWS Console for the Lambda function.
+
+
+- `SLACK_SIGNING_SECRET`: **Basic information** > **App credentials**
+- `SLACK_BOT_TOKEN`     : **OAuth & Permissions** > starts with `xoxo-`
+
+<br />
 
 {{< image src="images/environment-variables-lambda.png" class="w-80 mh0 mb3 ba b--near-white" >}}
 
 <br />
 
 
-## Test out the command in Slack
+## Test the command in Slack
 
 Awesome! Now let's test the slash command. 
 
@@ -362,7 +395,11 @@ It shows in the command menu.
 
 {{< image src="images/slack-command-type.png" class="w-80 mh0 mb3 ba b--near-white" >}}
 
-And...runs as expected when submitted along with some data.
+<br />
+
+And...the command runs as expected when submitted along with some data.
+
+<br />
 
 {{< image src="images/execute-command.png" class="w-80 mh0 mb3 ba b--near-white" >}}
 
@@ -372,7 +409,9 @@ And...runs as expected when submitted along with some data.
 
 There you have it! A Slack app running in Lambda created with AWS Amplify running in a serverless context.
 
-I'd definitely take a look at the other ways that you can [listen and respond](https://slack.dev/bolt-python/concepts#basic) to messages. My favorite? Responding to reactions...
+I'd definitely take a look at the other ways that you can [listen and respond](https://github.com/SlackAPI/bolt-python) to messages. My favorite? Responding to reactions...
+
+<div class="mv4">
 
 ```python
 @app.message(":wave:")
@@ -380,6 +419,8 @@ def say_hello(message, say):
     user = message['user']
     say(f"Hi there, <@{user}>!")
 ```
+
+</div>
 
 {{< tip >}}
 
