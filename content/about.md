@@ -30,7 +30,7 @@ other things I've written
 
 - [Using Templates and Static Assets with Flask Applications on RStudio Connect](https://support.rstudio.com/hc/en-us/articles/360045279313)
 
-- [Using Flask-SQLAlchemy with Flask Applications on RStudio Connect](https://support.rstudio.com/hc/en-us/articles/360045224233)
+- [Using Flask-SQLAlchemy with Flask Applications on RStudio Connect](https://support.rstudio.com/hc/en-us/articles/360045926213-Using-Flask-SQLAlchemy-with-Flask-Applications-on-RStudio-Connect)
 
 contact
 
