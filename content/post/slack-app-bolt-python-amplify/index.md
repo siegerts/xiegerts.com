@@ -6,6 +6,7 @@ tags = [
     "development", 
     "AWS Amplify", 
     "Slack",
+    "Slackbot",
     "Lambda",
     "full stack",
     "serverless",
@@ -13,6 +14,7 @@ tags = [
     "slash command",
     "lambda",
     "bolt-python",
+    "deployment"
 ]
 
 thumbnail = "images/slack-python-amplify-header.png"
