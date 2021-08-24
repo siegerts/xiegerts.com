@@ -55,6 +55,3 @@ As always, the only way to understand is by rolling up your sleeves and giving i
 To get started, check out [Structuring a Vue component library](/post/creating-vue-component-library-structure/).
 
 
----
-
-Interested in more Vue related posts? Check out [VueWeekly](https://vueweekly.dev), a weekly digest of Vue.js related posts and updates.

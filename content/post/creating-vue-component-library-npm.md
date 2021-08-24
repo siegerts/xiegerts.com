@@ -183,7 +183,3 @@ I'm a realist :innocent:. There _will_ be hang ups going through this process to
 
 Hope that the series has been helpful! If so (or not!), let me know - [@siegerts](https://twitter.com/siegerts).
 
-
----
-
-Interested in more Vue related posts? Check out [VueWeekly](https://vueweekly.dev), a weekly digest of Vue.js related posts and updates.
