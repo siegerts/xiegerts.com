@@ -17,7 +17,7 @@ projects
 
 - [LineupGen](https://www.lineupgen.com) - The quickest way to generate unique Daily Fantasy Sports lineups, with one simple spreadsheet formula or API call.
 
-- [Vue Weekly](https://www.vueweekly.dev/) - a free, weekly email digest of Vue.js news and articles
+- [Fullstack Digest](https://www.fullstackdigest.com/) - A weekly email digest of fullstack development news and articles.
 
 - [Hugo basic theme](https://themes.gohugo.io/hugo-theme-basic/) - a free theme template for the Hugo framework (used for this site)
 
