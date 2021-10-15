@@ -4,11 +4,11 @@ title = "About"
 date = 2021-05-07T19:29:36-05:00
 +++
 
-I try to keep things simple. That, and emoji :dog:.
+I try to keep things simple.
 
 currently
 
-- Open Source Solutions Architect @ [AWS Amplify](https://aws.amazon.com/amplify/)
+- Open Source Developer Experience @ [AWS Amplify](https://aws.amazon.com/amplify/)
  
 
 projects
@@ -22,7 +22,7 @@ projects
 - [Hugo basic theme](https://themes.gohugo.io/hugo-theme-basic/) - a free theme template for the Hugo framework (used for this site)
 
 
-other things I've written
+other writing
 
 - [Getting Started with Flask and RStudio Connect](https://support.rstudio.com/hc/en-us/articles/360044700234-Getting-Started-with-Flask-and-RStudio-Connect)
 
@@ -31,6 +31,9 @@ other things I've written
 - [Using Templates and Static Assets with Flask Applications on RStudio Connect](https://support.rstudio.com/hc/en-us/articles/360045279313)
 
 - [Using Flask-SQLAlchemy with Flask Applications on RStudio Connect](https://support.rstudio.com/hc/en-us/articles/360045926213-Using-Flask-SQLAlchemy-with-Flask-Applications-on-RStudio-Connect)
+
+- [Test-Driven Data Science: Writing Unit Tests for SASPy Python Data Processes](https://www.sas.com/content/dam/SAS/support/en/sas-global-forum-proceedings/2018/2347-2018.pdf)
+
 
 contact
 
