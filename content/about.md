@@ -6,12 +6,12 @@ date = 2021-05-07T19:29:36-05:00
 
 I try to keep things simple.
 
-currently
+### Current
 
 - Open Source Developer Experience @ [AWS Amplify](https://aws.amazon.com/amplify/)
  
 
-projects
+### Projects
 
 - [lowercase.app](https://www.lowercase.app) - a simple way to take and share notes
 
@@ -19,10 +19,10 @@ projects
 
 - [Fullstack Digest](https://www.fullstackdigest.com/) - A weekly email digest of fullstack development news and articles.
 
-- [Hugo basic theme](https://themes.gohugo.io/hugo-theme-basic/) - a free theme template for the Hugo framework (used for this site)
+<!-- - [Hugo basic theme](https://themes.gohugo.io/hugo-theme-basic/) - a free theme template for the Hugo framework (used for this site) -->
 
 
-other writing
+<!-- ### Other writing
 
 - [Getting Started with Flask and RStudio Connect](https://support.rstudio.com/hc/en-us/articles/360044700234-Getting-Started-with-Flask-and-RStudio-Connect)
 
@@ -32,19 +32,16 @@ other writing
 
 - [Using Flask-SQLAlchemy with Flask Applications on RStudio Connect](https://support.rstudio.com/hc/en-us/articles/360045926213-Using-Flask-SQLAlchemy-with-Flask-Applications-on-RStudio-Connect)
 
-- [Test-Driven Data Science: Writing Unit Tests for SASPy Python Data Processes](https://www.sas.com/content/dam/SAS/support/en/sas-global-forum-proceedings/2018/2347-2018.pdf)
+- [Test-Driven Data Science: Writing Unit Tests for SASPy Python Data Processes](https://www.sas.com/content/dam/SAS/support/en/sas-global-forum-proceedings/2018/2347-2018.pdf) -->
 
 
-contact
+### Contact
 
 - [github - @siegerts](https://github.com/siegerts)
 - [twitter - @siegerts](https://twitter.com/siegerts)
 
 
-support 
-- [buy me a coffee :coffee:](https://www.buymeacoffee.com/siegerts)
 
-
-stay up to date
+### Stay up to date
 
 - [RSS feed](https://www.xiegerts.com/post/index.xml)

@@ -2,6 +2,7 @@
 {{ $tachyons := resources.Get "css/vendor/tachyons.min.css" }}
 {{ $customCss := resources.Get "css/style.css"}}
 
+
 {{ $style := slice $tachyons $customCss | resources.Concat "css/style.css" | resources.Minify }}
 
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" />

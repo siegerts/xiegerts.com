@@ -1,6 +1,6 @@
 +++
 title = "Structuring a Vue component library"
-description = "In this post, we'll step through the initial project structure for your Vue components. Remember, you'll want to to try to lower the barriers to entry of understanding for other developers in order for them to grasp your design choices. Not only for using, but for debugging (which is probably more likely, TBH)."
+description = "In this post, we'll step through the initial project structure for your Vue components. Remember, you'll want to to try to lower the barriers to entry of understanding for other developers in order for them to grasp your design choices."
 tags = [
     "development", 
     "vue", 

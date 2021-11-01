@@ -32,7 +32,7 @@ code {
 }
 
 p a {
-  color: #357edd;
+  /* color: #357edd; */
   text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ p {
 
 article div a,
 article ul li a {
-  color: #357edd;
+  /* color: #357edd; */
   text-decoration: none;
 }
 

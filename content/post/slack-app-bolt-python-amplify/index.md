@@ -1,6 +1,6 @@
 +++
 title = "Building and deploying a Slack app with Python, Bolt, and AWS Amplify"
-description = "Building and deploying a Slack app with AWS Amplify, Python, and Bolt"
+description = "Building and deploying a Slack app with AWS Amplify, Python, and Bolt."
 
 tags = [
     "development", 

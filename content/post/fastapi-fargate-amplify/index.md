@@ -1,6 +1,6 @@
 +++
 title = "Deploying a FastAPI backend using AWS Amplify Container-based REST APIs"
-description = "Deploying a FastAPI backend using AWS Amplify Container-based REST APIs"
+description = "Deploying a FastAPI backend using AWS Amplify Container-based REST APIs."
 
 tags = [
     "Docker", 

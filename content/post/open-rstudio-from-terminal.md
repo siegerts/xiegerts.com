@@ -1,6 +1,6 @@
 +++
 title = "Launching RStudio from the command line"
-description = "A quick Zsh or Bash function to open an RStudio project from the command line"
+description = "A quick Zsh or Bash function to open an RStudio project from the command line."
 tags = [
   "development",
   "rstudio",

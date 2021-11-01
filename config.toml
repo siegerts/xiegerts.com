@@ -1,6 +1,6 @@
 baseURL = "https://xiegerts.com/"
 languageCode = "en-us"
-title = "xiegerts"
+title = "Stephen Siegert"
 theme ="hugo-theme-basic"
 enableEmoji = true
 
@@ -40,17 +40,16 @@ copyright = "© 2021 Copyright Stephen Siegert (<a href='https://twitter.com/sie
 
 # links
 [[params.menu]]
-  name = "blog"
+  name = "Blog"
   url = "post/"
 
 [[params.menu]]
-  name = "series"
-  url = "series/"
-
-[[params.menu]]
-  name = "about"
+  name = "About"
   url = "about/"
 
+[[params.menu]]
+  name = "Series"
+  url = "series/"
 
 [sitemap]
   changefreq = "weekly"
