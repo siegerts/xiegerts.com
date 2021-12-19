@@ -11,7 +11,7 @@ Just a quick note on configuration changes needed for the [Slack provider](https
 
 The below changes assume that the app is set up following the NextAuth.js documentation.
 
-### `prisma.schema`
+### `schema.prisma`
 
 The schema needs to be adjusted to include both `state` and `ok`.
 
