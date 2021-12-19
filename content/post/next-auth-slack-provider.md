@@ -9,7 +9,7 @@ date = 2021-12-18T19:33:55-05:00
 
 Just a quick note on configuration changes needed for the [Slack provider](https://next-auth.js.org/providers/slack) to save the authenticated user correctly using the Prisma adapter.
 
-The below changes assume that the app is set up by based on the NextAuth.js documentation.
+The below changes assume that the app is set up following the NextAuth.js documentation.
 
 ### `prisma.schema`
 
