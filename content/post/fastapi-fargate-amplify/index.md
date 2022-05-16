@@ -53,7 +53,7 @@ This guide will follow the steps outlined in the [Serverless containers](https:/
 ### Prerequisites
 You'll need to have the below installed and configured.
 
-- [AWS Amplify CLI](https://docs.amplify.aws/cli/start/install#install-the-amplify-cli) - working with Amplify (I'm using `v4.50.2` )
+- [AWS Amplify CLI](https://docs.amplify.aws/cli/start/install#install-the-amplify-cli) - working with Amplify (I'm using `v8.2.0` )
 - [Docker](https://www.docker.com/products/docker-desktop) - testing the APIs locally
 
 
