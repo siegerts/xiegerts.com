@@ -185,10 +185,10 @@ Following the above steps, the following **app/** and **Dockerfile** are added t
 
 ```diff
   .
-  ├── amplify/backend/api/<api-name>/src/
-+ │   └── app
-+ │       └── main.py
-+ └────── Dockerfile
+  └─  amplify/backend/api/<api-name>/src/
++     ├── app
++     │   └── main.py
++     └────── Dockerfile
 
 ```
 
