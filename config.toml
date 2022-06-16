@@ -33,7 +33,7 @@ copyright = "© 2022 Copyright Stephen Siegert (<a href='https://twitter.com/sie
 [params]
   titleEmoji = ":coffee: \n :dog:"
   twitter = "siegerts"
-  description = "Thoughts, comments, and technology commentary."
+  description = "Thoughts, tutorials, and other things that I'm working on."
 
 [Permalinks]
   blog = "blog/:slug"
