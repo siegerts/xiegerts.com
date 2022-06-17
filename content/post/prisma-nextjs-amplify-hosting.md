@@ -1,6 +1,6 @@
 +++
 title = "Deploying Next.js SSR and Prisma on Amplify Hosting"
-description = "In this post, we'll set up and deploy a Next.js SSR app that uses the Prisma ORM with a PostgreSQL database. Once integrated, we'll be able to fetch data using SSR and getServerSideProps. We'll store the connection information for the database in AWS Systems Manager Parameter Store and deploy the app using Amplify Hosting."
+description = "Set up and deploy a Next.js SSR app that uses the Prisma ORM with a PostgreSQL database. Once integrated, we'll be able to fetch data using SSR and getServerSideProps. We'll store the connection information for the database in AWS Systems Manager Parameter Store and deploy the app using Amplify Hosting."
 tags = [
     "development",
     "AWS Amplify",
@@ -571,7 +571,7 @@ Finish the configuration set up and **Create** the application. In the build log
 
 ## Conclusion
 
-Great! The application is now set up to query data from a relational Postgres database using Prisma. Additionally, the database connection details are securely stored in AWS Systems Manager Parameter Store 🔒.
+Great! The application is now set up to query data from a relational PostgreSQL database using Prisma. Additionally, the database connection details are securely stored in AWS Systems Manager Parameter Store 🔒.
 
 
 
