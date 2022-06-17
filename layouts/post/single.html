@@ -16,7 +16,7 @@
     <span class="f6 gray">{{ .Date.Format "January 2, 2006" }}</span>
 
       <article itemprop="articleBody" id="content" class="w-90 lh-copy">
-        {{ .Content }}
+        {{ partial "headline-hash.html" .Content }}
       </article>
 
       <!-- last modified note -->
