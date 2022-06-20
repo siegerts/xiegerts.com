@@ -30,7 +30,8 @@ In this post, we'll set up and deploy a [Next.js SSR app](https://nextjs.org/doc
 1. Create a Next.js app 
 2. Set up Prisma and seed the DB
 3. Create and store the production DB connection string in Parameter Store (SSM)
-4. Configure the build to retrieve the credential from (SSM) and deploy on Amplify Hosting
+4. Configure the Amplify Hosting build to retrieve the connection string from (SSM)
+5. Deploy!
 
 
 You'll need a few prerequisites to follow along:
@@ -195,7 +196,7 @@ model Post {
 
 #### Setting the local `DATABASE_URL` environment variable
 
-You need to update the `DATABASE_URL` environment variable to point to a PostgreSQL compatible database. This database can be different from what you'll use when you deploy the application. Typically, you'll use a different database for each environment (local, test, prod, etc.). 
+You'll need to update the `DATABASE_URL` environment variable to point to a PostgreSQL compatible database. This database can be different from what you'll use when you deploy the application. Typically, you'll use a different database for each environment (local, test, prod, etc.). 
 
 No matter what you use, **make sure not to expose this!** For example, you may use something like this in the `.env` file:
 
@@ -407,17 +408,17 @@ Next, deploy to Amplify Hosting 🚀.
 
 A few things need to happen before we deploy the app. We're going to need to push the application to GitHub since we'll deploy with the continuous CI/CD in Amplify Hosting.
 
-Also, we're going to retrieve the production database connection string from AWS Parameter Store. You could also follow a similar approach for use with Secrets Manager if you'd rather use that service. From the Parameter Store documentation:
+Also, we're going to retrieve the production database (or _non-development_) connection string from AWS Parameter Store. You could also follow a similar approach for use with Secrets Manager if you'd rather use that service. From the Parameter Store documentation:
 
 > To implement password rotation lifecycles, use AWS Secrets Manager. You can rotate, manage, and retrieve database credentials, API keys, and other secrets throughout their lifecycle using Secrets Manager.
 
 The pattern that we'll use can work with either service. I prefer Parameter Store _unless_ I need rotation as mentioned in the documentation snippet.
 
 
-#### Create database connection string parameter
+#### Create the database connection string parameter
 
 
-Before deploying the app, create a `SecureString` parameter in Parameter Store. Typically, I use a Python helper (Appendix A) script to quickly create parameters but you can also manually add in the AWS Console.
+Before deploying the app, create a `SecureString` parameter in Parameter Store. Typically, I use a Python helper ([Appendix](#appendix-add-securestring-in-parameter-store-with-python-and-boto3)) script to quickly create parameters but you can also manually add in the AWS Console.
 
 The parameter should follow the connection string pattern that we've been using and is required by Prisma:
 
@@ -545,7 +546,7 @@ When the the build runs:
 
 4. Execute the `update-env.sh` utility to retrieve the database connection string from SSM and write the value to the `.env` file
 
-5. Generate the `prisma client` using the SSM parameter
+5. Generate the `prisma client` using the connection string SSM parameter
 
 
 #### Update environment variables
