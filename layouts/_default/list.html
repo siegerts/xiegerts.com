@@ -21,13 +21,14 @@
             >{{ .Title }}</a
           >
           
+          <p class="db"
+            >{{ .Description }}
+          </p>
+
           <span
             class="f6 gray db"
             >{{ .Date.Format "January 2, 2006" }}</span
           >
-          <p class="measure-wide db"
-            >{{ .Description }}
-          </p>
         </li>
         <!-- prettier-ignore -->
         {{ end }}

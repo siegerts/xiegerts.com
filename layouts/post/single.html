@@ -30,14 +30,15 @@
         <section class="mt4">
           {{ $readMore := ":wave:" }}
           {{ $series := .Params.series | urlize}}
-          <h3>{{ $readMore | emojify }} Related posts in the <a href="/series/{{ $series }}" class="b bb bw1 pb1 no-underline black">{{ .Params.Series }}</a> series...</h3>
-      
+
+          <h3 class="lh-copy">{{ $readMore | emojify }} Related posts in the <a href="/series/{{ $series }}" class="b no-underline black br2 pv1 ph2 bg-black-10">{{ .Params.Series }}</a> series...</h3>
+       
           {{ $posts := index .Site.Taxonomies.series $series }}
          
           {{ if (gt ($posts | len) 1)}}
             <ul class="list pl0">
               {{ range where $posts "Title" "!=" .Title }}
-                <li class="list pl0 lh-copy">
+                <li class="list pl0 lh-copy mv3 mv2-l">
                   <a
                     class="f4 b dib black no-underline"
                     href="{{ .Permalink}}"
