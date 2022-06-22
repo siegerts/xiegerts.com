@@ -61,6 +61,41 @@ The response, if using the _seed_ data will look similar:
 }
 ```
 
+Also, if you'd like to [configure module aliases](https://nextjs.org/docs/advanced-features/module-path-aliases), add the below in a new `jsconfig.json`.
+
+```diff
+```diff
+  .
+  ├── node_modules/
+  ├── lib/
+  ├── prisma/
+  ├── pages/
+  ├── public/
+  ├── styles/
+  ├── next.config.js 
+  ├── .env
++ ├── jsconfig.json
+  ...
+
+  └─ README.md
+```
+
+The below setup will allow Prisma to be imported using `import prisma from "@/lib/prisma";` with the `@` alias.
+
+```json
+// jsconfig.json
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@/components/*": ["components/*"],
+        "@/lib/*": ["lib/*"],
+        "@/styles/*": ["styles/*"]
+      }
+    }
+  }
+```
+
 Add just like that you can now power API routes using Prisma. You can add additional Server Side business logic and call additional external APIs, if needed.
 
 Also, this can be redeployed in the previous app to run on Amplify Hosting :rocket:.
