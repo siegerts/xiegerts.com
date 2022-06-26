@@ -90,7 +90,7 @@ Another good resource is the [Amplify Hosting FAQ](https://github.com/aws-amplif
 {{< /note >}}
 
 
-Prisma requires the application to have some server-side (i.e. backend) layer to run in. Also, Amplify Hosting will deploy the app differently if depending on the type (SSR vs SSG). If starting a new application, the directory structure will resemble:
+Prisma requires the application to have some server-side (i.e. backend) layer to run in. Also, Amplify Hosting will deploy the app differently depending on the type (SSR vs SSG). If starting a new application, the directory structure will resemble:
 
 ```diff
   .
