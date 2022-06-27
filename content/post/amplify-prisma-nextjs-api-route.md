@@ -63,7 +63,7 @@ The response, if using the _seed_ data will look similar:
 
 Also, if you'd like to [configure module aliases](https://nextjs.org/docs/advanced-features/module-path-aliases), add the below in a new `jsconfig.json`.
 
-```diff
+
 ```diff
   .
   ├── node_modules/
