@@ -1,7 +1,7 @@
 +++
 title = "Serverless Authentication with Amplify Auth, Amplify UI, and Next.js"
 
-description = "This post with walk through setting up Amplify Auth with the Amplify UI React library in a Next.js SSR application. Once set up, we can restrict access to pages using the built-in hooks from the Amplify Authenticator and use withSSRContext and Auth to restrict access to the API routes and pages with SSR."
+description = "This post steps through setting up Amplify Auth with the Amplify UI React library in a Next.js SSR application. Once set up, we can restrict access to pages using the built-in hooks from the Amplify Authenticator and use withSSRContext and Auth to restrict access to the API routes and pages with SSR."
 
 tags = [
     "development",
@@ -26,7 +26,7 @@ date = 2022-06-28T12:45:20-04:00
 +++
 
 
-This post with walk through setting up [Amplify Auth](https://docs.amplify.aws/lib/auth/getting-started/q/platform/js/) with the [Amplify UI React library](https://ui.docs.amplify.aws/react) in a Next.js SSR application. Once set up, we can restrict access to pages using the built-in hooks from the Amplify Authenticator and use `withSSRContext` and `Auth` to restrict access to the API routes.
+This post steps through setting up [Amplify Auth](https://docs.amplify.aws/lib/auth/getting-started/q/platform/js/) with the [Amplify UI React library](https://ui.docs.amplify.aws/react) in a Next.js SSR application. Once set up, we can restrict access to pages using the built-in hooks from the Amplify Authenticator and use `withSSRContext` and `Auth` to restrict access to the API routes.
 
 At this point, we'll have all of the auth primitives to build a complete fullstack Next.js application. We can restrict access on the client or server (`getServerSideProps`) and also create API routes for additional business logic and processing.
 
