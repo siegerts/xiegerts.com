@@ -22,7 +22,7 @@ cardType = "summary_large_image"
 
 series = "100 Days of AWS Amplify"
 
-date = 2022-06-17T12:45:20-04:00
+date = 2022-06-28T12:45:20-04:00
 +++
 
 
