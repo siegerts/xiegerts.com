@@ -278,8 +278,11 @@ function Login() {
 
 export default withAuthenticator(Login);
 ```
+<br /> 
 
 The login page will now show the Authenticator overlay.
+
+<br /> 
 
 {{< image src="images/login-page.png" class="mh0 mb3 ba b--near-white" >}}
 
