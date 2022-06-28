@@ -40,7 +40,7 @@ First, we'll get the app set up with Amplify Auth.
 - [Restrict access in the client-side page](#creating-a-protected-settings-page)
 
 
-Then we'll add in the UI :art:.
+Then we'll add some UI elements :art:.
 
 
 ## Create the app
