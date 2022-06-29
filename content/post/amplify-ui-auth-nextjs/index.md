@@ -26,7 +26,7 @@ date = 2022-06-28T12:45:20-04:00
 +++
 
 
-This post steps through setting up [Amplify Auth](https://docs.amplify.aws/lib/auth/getting-started/q/platform/js/) with the [Amplify UI React library](https://ui.docs.amplify.aws/react) in a Next.js SSR application. Once set up, we can restrict access to pages using the built-in hooks from the Amplify Authenticator and use `withSSRContext` and `Auth` to restrict access to the API routes.
+This post steps through setting up [Amplify Auth](https://docs.amplify.aws/lib/auth/getting-started/q/platform/js/) with the [Amplify UI React library](https://ui.docs.amplify.aws/react) in a Next.js SSR application. Once set up, we can restrict access to pages using the built-in hooks from the Amplify Authenticator on the client-side and use `withSSRContext` and `Auth` to restrict access to the API routes.
 
 At this point, we'll have all of the auth primitives to build a complete fullstack Next.js application. We can restrict access on the client or server (`getServerSideProps`) and also create API routes for additional business logic and processing.
 
@@ -118,7 +118,7 @@ amplify push
 
 Awesome :rocket:. Those steps will set up our authentication resources - now we just need to link them to the UI in the app. I'm going to use the  `Authenticator` from the Amplify UI library. This is a drop-in component to handle the authentication flow leveraging the Amazon Cognito backend that we created above with the Amplify CLI.
 
-There has been a lot of updates to Amplify UI recently and I suggest taking a look at the documentation. Not only is the `Authenticator` updated but the library now includes primitive components provide very nice building blocks for most UI use cases. The "cloud connected" components use Amplify cloud resources but all of the other components can be used as standalone drop-ins.
+There has been a lot of updates to [Amplify UI](https://ui.docs.amplify.aws/) recently and I suggest taking a look at the documentation. Not only is the `Authenticator` updated but the library now includes primitive components provide very nice building blocks for most UI use cases. The "cloud connected" components use AWS cloud resources but all of the other components can be used as standalone drop-ins.
 
 ## Install Amplify UI
 
@@ -226,7 +226,7 @@ Now that that everything is set, you can use Amplify Auth to authenticate users 
 
 ## Login page
 
-The _Login_ page page will use the [`withAuthenticator`](https://ui.docs.amplify.aws/react/components/authenticator#quick-start) higher order component (HOC). So, the entire page will be the `Authenticator` component overlay. Create this `login.js` in the `/pages`directory.
+The _Login_ page will use the [`withAuthenticator`](https://ui.docs.amplify.aws/react/components/authenticator#quick-start) higher order component (HOC). The entire page will be the `Authenticator` component overlay. Create this `login.js` in the `/pages`directory.
 
 ```diff
   .
@@ -247,7 +247,7 @@ The _Login_ page page will use the [`withAuthenticator`](https://ui.docs.amplify
 
 <br />
 
-A nice UX item is to capture the incoming route `ref`. Then, when the `authStatus` switches to `authenticated`, the user can be redirected to the page that they were attempting to access prior to logging in. For instance, an unauthenticated (or new) user may click on a subscription tier on a pricing page. Once they sign in, they will be redirected to back to the page where they can subscribed. This can be adapted for different patterns and use cases.
+A nice UX quality of life is to capture the incoming route `ref`. Then, when the `authStatus` switches to `authenticated`, the user can be redirected to the page that they were attempting to access prior to logging in. For instance, an unauthenticated (or new) user may click on a subscription tier on a pricing page. Once they sign in, they will be redirected to back to the page where they can subscribe. This can be adapted for different patterns and use cases.
 
 So, when a user is sent (or tries to access) to the Login page. If they are authenticated, they will be sent back to the referring page. If they are not authenticated, they will be prompted with the `Authenticator` login form. Once signed in, the [`authStatus`](https://ui.docs.amplify.aws/react/components/authenticator/headless#authentication-check) will change and they will be sent back to the referring page if present.
 
@@ -376,7 +376,7 @@ Let's create a restricted page that only the authenticated user can view.  Add a
 ```
 <br />
 
-In the _Settings_ page, we'll check for the user, server side in `getServerSideProps`. This will prevent the page from loading if the request is not authenticate.
+In the _Settings_ page, we'll check for the user server side by using `getServerSideProps`. This will prevent the page from loading if the request is not authenticated.
 
 Then, client side, we monitor `authStatus`. If that value changes and does not equal `authenticated` or `configuring`, the user will be redirected back to the _Login_ page. We'll wrap this in an effect to check on each update of `authStatus`.
 
@@ -576,7 +576,7 @@ Switching to the _Settings_ page, the user is allowed to access and the page is 
 
 ## Conclusion
 
-Nice! We now have a Next.js application that incorporates Amplify Auth to restrict user access to different sections of the application (_Settings_ page, API routes) built with Amplify UI.
+Nice! We now have a Next.js application that incorporates Amplify Auth to restrict user access to different sections of the application (_Settings_ page, API routes) built with Amplify UI React components.
 
 
 {{<note>}} 
