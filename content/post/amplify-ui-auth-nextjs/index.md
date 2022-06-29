@@ -30,7 +30,7 @@ This post steps through setting up [Amplify Auth](https://docs.amplify.aws/lib/a
 
 At this point, we'll have all of the auth primitives to build a complete fullstack Next.js application. We can restrict access on the client or server (`getServerSideProps`) and also create API routes for additional business logic and processing.
 
-As a bonus, We'll create a nice UI structure with the Amplify UI primitive components. This will coincide with our use of the the Authenticator component. We'll add top navigation bar component for signing in and out.
+As a bonus, we'll create a nice UI structure with the Amplify UI primitive components. This will coincide with our use of the the Authenticator component. We'll add top navigation bar component for signing in and out.
 
 
 First, we'll get the app set up with Amplify Auth.
