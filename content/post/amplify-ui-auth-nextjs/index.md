@@ -38,6 +38,7 @@ First, we'll get the app set up with Amplify Auth.
 - [Restrict access with SSR](#checking-authentication-in-ssr)
 - [Restrict access in Next.js API routes](#protected-api-routes)
 - [Restrict access in the client-side page](#creating-a-protected-settings-page)
+- [Restrict access based on Cognito Groups](#group-based-access-with-cognito-groups)
 
 
 Then we'll add some UI elements :art:.
@@ -573,6 +574,44 @@ Switching to the _Settings_ page, the user is allowed to access and the page is 
 {{< image src="images/authenticated-settings.png" class="mh0 mv3 ba b--near-white" >}}
 
 <br />
+
+## Group based access with Cognito Groups
+
+It's also possible to grab the `accessToken` from the the authenticated `user` and use that information to show and/or hide parts of the application based on Cognito Groups.
+
+Assuming the setup used in the examples above, you can access the `cogito:groups` key from the token payload. 
+
+```js
+const { user, signOut } = useAuthenticator((context) => [context.user]);
+
+const groups = user?.getSignInUserSession()?.getAccessToken()?.payload[
+  "cognito:groups"
+];
+```
+
+The `groups` can then be used to restrict or toggle information.
+
+For reference, the [Cognito Access Token payload structure](https://docs.aws.amazon.com/cognito/latest/developerguide/amazon-cognito-user-pools-using-the-access-token.html#user-pool-access-token-payload) is:
+
+```json
+{
+  "sub": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+  "device_key": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+  "cognito:groups": [
+    "admin"
+  ],
+  "token_use": "access",
+  "scope": "aws.cognito.signin.user.admin",
+  "auth_time": 1562190524,
+  "iss": "https://cognito-idp.us-west-2.amazonaws.com/us-west-2_example",
+  "exp": 1562194124,
+  "iat": 1562190524,
+  "origin_jti": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+  "jti": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+  "client_id": "57cbishk4j24pabc1234567890",
+  "username": "janedoe@example.com"
+}
+```
 
 ## Conclusion
 
