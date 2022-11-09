@@ -443,7 +443,7 @@ If you need to adjust the role with an inline policy for a specific resource, yo
 },
 ```
 
-This is something to keep in mind for Next.js SSR applications on Amplify - you want to make sure that they Backend Role has the correct permissions for your application.
+This is something to keep in mind for Next.js SSR applications on Amplify - you want to make sure that the Backend Role has the correct permissions for your application.
 
 The permissions required for Next.js apps on Amplify are listed in [SSR IAM Permissions]( https://docs.aws.amazon.com/amplify/latest/userguide/server-side-rendering-amplify.html#ssr-IAM-permissions).
 
