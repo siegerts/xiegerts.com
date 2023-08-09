@@ -1,17 +1,19 @@
 +++
 title = "About"
 
-date = 2021-05-07T19:29:36-05:00
+date = 2023-08-08T19:29:36-05:00
 +++
 
 I try to keep things simple.
 
 ### Current
 
-- Open Source Developer Experience @ [AWS Amplify](https://aws.amazon.com/amplify/)
+- Product Manager @ [AWS Amplify](https://aws.amazon.com/amplify/)
  
 
 ### Projects
+
+- [dossi.dev](https://dossi.dev) - A browser extension and web app to keep track of your own private GitHub notes
 
 - [lowercase.app](https://www.lowercase.app) - a simple way to take and share notes
 
@@ -19,10 +21,12 @@ I try to keep things simple.
 
 - [Fullstack Digest](https://www.fullstackdigest.com/) - A weekly email digest of fullstack development news and articles.
 
-<!-- - [Hugo basic theme](https://themes.gohugo.io/hugo-theme-basic/) - a free theme template for the Hugo framework (used for this site) -->
+- [Hugo basic theme](https://themes.gohugo.io/hugo-theme-basic/) - a free theme template for the Hugo framework (used for this site)
 
 
-<!-- ### Other writing
+### Other writing
+
+- [Driving Action and Communication in AWS Amplify Open Source Projects](https://aws.amazon.com/blogs/opensource/driving-action-and-communication-in-aws-amplify-open-source-projects/)
 
 - [Getting Started with Flask and RStudio Connect](https://support.rstudio.com/hc/en-us/articles/360044700234-Getting-Started-with-Flask-and-RStudio-Connect)
 
@@ -32,7 +36,7 @@ I try to keep things simple.
 
 - [Using Flask-SQLAlchemy with Flask Applications on RStudio Connect](https://support.rstudio.com/hc/en-us/articles/360045926213-Using-Flask-SQLAlchemy-with-Flask-Applications-on-RStudio-Connect)
 
-- [Test-Driven Data Science: Writing Unit Tests for SASPy Python Data Processes](https://www.sas.com/content/dam/SAS/support/en/sas-global-forum-proceedings/2018/2347-2018.pdf) -->
+- [Test-Driven Data Science: Writing Unit Tests for SASPy Python Data Processes](https://www.sas.com/content/dam/SAS/support/en/sas-global-forum-proceedings/2018/2347-2018.pdf) 
 
 
 ### Contact
