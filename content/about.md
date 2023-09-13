@@ -11,20 +11,22 @@ I try to keep things simple.
 - Product Manager @ [AWS Amplify](https://aws.amazon.com/amplify/)
  
 
-### Projects
+### Products that I've built
 
-- [dossi.dev](https://dossi.dev) - A browser extension and web app to keep track of your own private GitHub notes
+- [Best Reminder App](https://www.bestreminderapp.com) - A browser extension that makes it easy to create reminders for tab URLs or notes. You can schedule reminder notifications for later or create custom intervals for days of the week or time increments, like every `23 minutes` or `every Wednesday, Friday`.
 
-- [lowercase.app](https://www.lowercase.app) - a simple way to take and share notes
+- [dossi.dev](https://www.dossi.dev) - A browser extension and web app to keep track of your own private GitHub notes.
+
+- [lowercase.app](https://www.lowercase.app) - a simple way to take and share notes.
 
 - [LineupGen](https://www.lineupgen.com) - The quickest way to generate unique Daily Fantasy Sports lineups, with one simple spreadsheet formula or API call.
 
 - [Fullstack Digest](https://www.fullstackdigest.com/) - A weekly email digest of fullstack development news and articles.
 
-- [Hugo basic theme](https://themes.gohugo.io/hugo-theme-basic/) - a free theme template for the Hugo framework (used for this site)
+- [Hugo basic theme](https://themes.gohugo.io/hugo-theme-basic/) - a free theme template for the Hugo framework (used for this site).
 
 
-### Other writing
+### Other posts
 
 - [Driving Action and Communication in AWS Amplify Open Source Projects](https://aws.amazon.com/blogs/opensource/driving-action-and-communication-in-aws-amplify-open-source-projects/)
 
