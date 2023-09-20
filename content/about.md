@@ -25,7 +25,7 @@ I try to keep things simple.
 
 - [Hugo basic theme](https://themes.gohugo.io/hugo-theme-basic/) - a free theme template for the Hugo framework (used for this site).
 
-- [tachyons-embed](https://marketplace.visualstudio.com/items?itemName=siegerts.tachyons-embed) VS Code extension for embedding [Tachyons CSS](https://tachyons.io/) source definitions as snippets.
+- [tachyons-embed](https://marketplace.visualstudio.com/items?itemName=siegerts.tachyons-embed) - VS Code extension for embedding [Tachyons CSS](https://tachyons.io/) source definitions as snippets.
 
 
 ### Other posts
