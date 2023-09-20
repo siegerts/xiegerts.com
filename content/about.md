@@ -13,7 +13,7 @@ I try to keep things simple.
 
 ### Products that I've built
 
-- [Best Reminder App](https://www.bestreminderapp.com) - A browser extension that makes it easy to create reminders for tab URLs or notes. You can schedule reminder notifications for later or create custom intervals for days of the week or time increments, like every `23 minutes` or `every Wednesday, Friday`.
+- [Best Reminder App](https://www.bestreminderapp.com) - A browser extension that makes it easy to create reminder notifications for tab URLs or notes. You can schedule reminder notifications for later or create custom intervals for days of the week or time increments, like every `23 minutes` or `every Wednesday, Friday`.
 
 - [dossi.dev](https://www.dossi.dev) - A browser extension and web app to keep track of your own private GitHub notes.
 
@@ -24,6 +24,8 @@ I try to keep things simple.
 - [Fullstack Digest](https://www.fullstackdigest.com/) - A weekly email digest of fullstack development news and articles.
 
 - [Hugo basic theme](https://themes.gohugo.io/hugo-theme-basic/) - a free theme template for the Hugo framework (used for this site).
+
+- [tachyons-embed](https://marketplace.visualstudio.com/items?itemName=siegerts.tachyons-embed) VS Code extension for embedding [Tachyons CSS](https://tachyons.io/) source definitions as snippets.
 
 
 ### Other posts
