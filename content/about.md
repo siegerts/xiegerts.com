@@ -13,7 +13,7 @@ I try to keep things simple.
 
 ### Products that I've built
 
-- [Best Reminder App](https://www.bestreminderapp.com) - A browser extension that makes it easy to create reminder notifications for tab URLs or notes. You can schedule reminder notifications for later or create custom intervals for days of the week or time increments, like every `23 minutes` or `every Wednesday, Friday`.
+- [Best Reminder App](https://www.bestreminderapp.com) - A Chrome extension that makes it easy to create reminder notifications for tab URLs and notes. You can schedule reminder notifications for later or create custom intervals for days of the week or time increments, like every `23 minutes` or `every Wednesday, Friday`.
 
 - [dossi.dev](https://www.dossi.dev) - A browser extension and web app to keep track of your own private GitHub notes.
 
