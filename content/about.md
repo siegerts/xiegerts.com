@@ -17,7 +17,7 @@ I try to keep things simple.
 - Exercise Chrome Extension - A Chrome extension to learn new [fitness exercises](https://chrome.google.com/webstore/detail/exercise/idhbppehmegfahmlnhajakjplaonfkdk) every time you open a new browser tab. A simple way to learn about workouts and stay fit. Each exercise also has a suggested modified version that can be done if you don't have access to a gym. Also, Each day a new daily exercise is posted. When I wrote this, it was a [rear delt exercise](https://www.exercises.so/daily).
 
 
-- Best Reminder App - A Chrome extension that makes it easy to create [reminder notifications](https://www.bestreminderapp.com) for tab URLs and notes in your browser. Tailor your alerts with custom intervals — whether it’s every '23 minutes' or on recurring weekdays like 'every Wednesday, Friday.' Give it a try and [schedule your reminders](https://chrome.google.com/webstore/detail/best-reminder-app/dnpkpjllkijgiiedcbjjkccmhcgoebbf)!
+- Best Reminder App - A Chrome extension that makes it easy to create [reminder notifications](https://www.bestreminderapp.com) for tab URLs and notes in your browser. Tailor your alerts with custom intervals — whether it’s every '23 minutes' or on recurring weekdays like 'every Wednesday, Friday'. Give it a try and [schedule your reminders](https://chrome.google.com/webstore/detail/best-reminder-app/dnpkpjllkijgiiedcbjjkccmhcgoebbf)!
 
 
 - dossi.dev - A browser extension and web app to keep track of your own [private GitHub notes](https://www.dossi.dev).
