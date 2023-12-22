@@ -35,6 +35,10 @@ I try to keep things simple.
 
 ### Other posts
 
+- [Introducing Support for Hosting Any SSR app on AWS Amplify Hosting](https://aws.amazon.com/blogs/mobile/introducing-support-for-hosting-any-ssr-app-on-aws-amplify-hosting/)
+
+- [Wildcard Subdomains for Multi-tenant Apps on AWS Amplify Hosting](https://aws.amazon.com/blogs/mobile/wildcard-subdomains-for-multi-tenant-apps-on-aws-amplify-hosting/)
+
 - [Driving Action and Communication in AWS Amplify Open Source Projects](https://aws.amazon.com/blogs/opensource/driving-action-and-communication-in-aws-amplify-open-source-projects/)
 
 - [Getting Started with Flask and RStudio Connect](https://support.rstudio.com/hc/en-us/articles/360044700234-Getting-Started-with-Flask-and-RStudio-Connect)
