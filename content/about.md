@@ -8,7 +8,13 @@ I try to keep things simple.
 
 ### Current
 
-- Product Manager @ [AWS Amplify](https://aws.amazon.com/amplify/)
+- Developer Advocate @ [Neon - Cloud Postgres](https://neon.tech/)
+
+### Past
+
+- Senior Product Manager @ [AWS Amplify](https://aws.amazon.com/amplify/)
+- Senior Solutions Architect @ [AWS Amplify](https://aws.amazon.com/amplify/)
+- Software Development Manager @ [SAS Software](https://www.sas.com/)
  
 
 ### Products that I've built
