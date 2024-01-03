@@ -5,8 +5,11 @@ theme ="hugo-theme-basic"
 enableEmoji = true
 
 
-GoogleAnalytics = "UA-134038089-1"
 copyright = "© 2024 Copyright Stephen Siegert (<a href='https://twitter.com/siegerts' class='link black-40'>@siegerts</a>). All rights reserved."
+
+[services]
+  [services.googleAnalytics]
+    ID = "UA-134038089-1"
 
 [markup]
   [markup.goldmark]
