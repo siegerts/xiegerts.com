@@ -23,10 +23,10 @@ I've been building products and services for the past 15 years. I've worked on a
 
 - [lowercase.app](https://www.lowercase.app) - a simple way to take and share notes. The Hacker News discussion is [here](https://news.ycombinator.com/item?id=40248217).
 
-- [Add to Sheets](https://www.addtosheets.com) - a Chrome extension to quickly add content to Google Sheets. The extension pubished in [Chrome Web Store](https://chromewebstore.google.com/detail/hgilhmbegaanegfbcppneigcmhgoinib)
+- [Add to Sheets](https://www.addtosheets.com) - a Chrome extension to quickly add content to Google Sheets. The extension is pubished in the [Chrome Web Store](https://chromewebstore.google.com/detail/hgilhmbegaanegfbcppneigcmhgoinib)
 
 
-- [Exercise Chrome Extension](https://www.exercises.so) - A Chrome extension to learn new [fitness exercises](https://chrome.google.com/webstore/detail/exercise/idhbppehmegfahmlnhajakjplaonfkdk) every time you open a new browser tab. A simple way to learn about workouts and stay fit. Each exercise also has a suggested modified version that can be done if you don't have access to a gym. Also, Each day a new daily exercise is posted.
+- [Exercise Chrome Extension](https://www.exercises.so) - A Chrome extension to learn new [fitness exercises](https://chrome.google.com/webstore/detail/exercise/idhbppehmegfahmlnhajakjplaonfkdk) every time you open a new browser tab. A simple way to learn about workouts and stay fit. Each exercise also has a suggested modified version that can be done if you don't have access to a gym. Also, each day a new daily exercise is posted.
 
 
 - Best Reminder App - A Chrome extension that makes it easy to create [reminder notifications](https://www.bestreminderapp.com) for tab URLs and notes in your browser. Tailor your alerts with custom intervals — whether it’s every '23 minutes' or on recurring weekdays like 'every Wednesday, Friday'. Give it a try and [schedule your reminders](https://chrome.google.com/webstore/detail/best-reminder-app/dnpkpjllkijgiiedcbjjkccmhcgoebbf)!
@@ -66,6 +66,7 @@ I've been building products and services for the past 15 years. I've worked on a
 
 - [github - @siegerts](https://github.com/siegerts)
 - [twitter - @siegerts](https://twitter.com/siegerts)
+- [linkedin - @siegerts](https://www.linkedin.com/in/siegerts/)
 
 
 
