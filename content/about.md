@@ -12,6 +12,8 @@ I've been building products and services for the past 15 years. I've worked on a
 
 - Developer Advocate @ [Neon - Cloud Postgres](https://neon.tech/)
 
+- Founder @ [lowercase.app](https://www.lowercase.app) - a simple way to take and share notes.
+
 ### Past
 
 - Senior Product Manager, Technical @ [AWS Amplify](https://aws.amazon.com/amplify/)
@@ -23,7 +25,7 @@ I've been building products and services for the past 15 years. I've worked on a
 
 - [lowercase.app](https://www.lowercase.app) - a simple way to take and share notes. The Hacker News discussion is [here](https://news.ycombinator.com/item?id=40248217).
 
-- [Add to Sheets](https://www.addtosheets.com) - a Chrome extension to quickly add content to Google Sheets. The extension is pubished in the [Chrome Web Store](https://chromewebstore.google.com/detail/hgilhmbegaanegfbcppneigcmhgoinib)
+- [Add to Sheets](https://www.addtosheets.com) - a Chrome extension to quickly add content to Google Sheets. The extension is published in the [Chrome Web Store](https://chromewebstore.google.com/detail/hgilhmbegaanegfbcppneigcmhgoinib)
 
 
 - [Exercise Chrome Extension](https://www.exercises.so) - A Chrome extension to learn new [fitness exercises](https://chrome.google.com/webstore/detail/exercise/idhbppehmegfahmlnhajakjplaonfkdk) every time you open a new browser tab. A simple way to learn about workouts and stay fit. Each exercise also has a suggested modified version that can be done if you don't have access to a gym. Also, each day a new daily exercise is posted.
