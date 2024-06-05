@@ -6,37 +6,36 @@ date = 2023-08-08T19:29:36-05:00
 
 I try to keep things simple.
 
-I've been building products and services for the past 15 years. I've worked on a variety of projects, from building Chrome extensions to SaaS products. Recently, I've consulted with startups and enterprises on building Chrome extensions, full stack serverless applications, and cloud-native architectures.
-
-### Current
+I've been building products and services for the past 15 years. I've worked on a variety of projects, from building browser extensions to SaaS products. Recently, I've consulted with startups and enterprises on building Chrome extensions, full stack serverless applications, and cloud-native architectures.
 
 - Developer Advocate @ [Neon - Cloud Postgres](https://neon.tech/)
-
 - Founder @ [lowercase.app](https://www.lowercase.app) - a simple way to take and share notes.
 
-### Past
+### previously
 
-- Senior Product Manager, Technical @ [AWS Amplify](https://aws.amazon.com/amplify/)
-- Senior Solutions Architect @ [AWS Amplify](https://aws.amazon.com/amplify/)
+- Senior Product Manager, Technical @ [AWS](https://aws.amazon.com/amplify/)
+- Senior Solutions Architect @ [AWS](https://aws.amazon.com/amplify/)
 - Software Development Manager @ [SAS Software](https://www.sas.com/)
  
 
-### Products
+### products
 
 - [lowercase.app](https://www.lowercase.app) - a simple way to take and share notes. The Hacker News discussion is [here](https://news.ycombinator.com/item?id=40248217).
 
-- [Add to Sheets](https://www.addtosheets.com) - a Chrome extension to quickly add content to Google Sheets. The extension is published in the [Chrome Web Store](https://chromewebstore.google.com/detail/hgilhmbegaanegfbcppneigcmhgoinib)
+- [Add to Sheets](https://www.addtosheets.com) - a Chrome extension to quickly add content to Google Sheets. The extension is published in the [Chrome Web Store](https://chromewebstore.google.com/detail/hgilhmbegaanegfbcppneigcmhgoinib).
 
 
 - [Exercise Chrome Extension](https://www.exercises.so) - A Chrome extension to learn new [fitness exercises](https://chrome.google.com/webstore/detail/exercise/idhbppehmegfahmlnhajakjplaonfkdk) every time you open a new browser tab. A simple way to learn about workouts and stay fit. Each exercise also has a suggested modified version that can be done if you don't have access to a gym. Also, each day a new daily exercise is posted.
 
 
-- Best Reminder App - A Chrome extension that makes it easy to create [reminder notifications](https://www.bestreminderapp.com) for tab URLs and notes in your browser. Tailor your alerts with custom intervals — whether it’s every '23 minutes' or on recurring weekdays like 'every Wednesday, Friday'. Give it a try and [schedule your reminders](https://chrome.google.com/webstore/detail/best-reminder-app/dnpkpjllkijgiiedcbjjkccmhcgoebbf)!
+- [Best Reminder App](https://www.bestreminderapp.com) - A Chrome extension that makes it easy to create reminder notifications for tab URLs and notes in your browser. Tailor your alerts with custom intervals — whether it’s every '23 minutes' or on recurring weekdays like 'every Wednesday, Friday'. Give it a try and [schedule your reminders](https://chrome.google.com/webstore/detail/best-reminder-app/dnpkpjllkijgiiedcbjjkccmhcgoebbf)!
 
 
-- dossi.dev - A browser extension and web app to keep track of your own [private GitHub notes](https://www.dossi.dev).
+- [dossi.dev](https://www.dossi.dev) - Open source browser extension and web app to keep track of your own private GitHub notes.
+
 
 - LineupGen - (currently rebuilding) The quickest way to generate unique Daily Fantasy Sports lineups injected with AI, with one API call.
+
 
 - [Fullstack Digest](https://www.fullstackdigest.com/) - A weekly email digest of fullstack development news and articles.
 
@@ -45,7 +44,7 @@ I've been building products and services for the past 15 years. I've worked on a
 - [tachyons-embed](https://marketplace.visualstudio.com/items?itemName=siegerts.tachyons-embed) - VS Code extension for embedding [Tachyons CSS](https://tachyons.io/) source definitions as snippets.
 
 
-### Other posts
+### other posts
 
 - [Introducing Support for Hosting Any SSR app on AWS Amplify Hosting](https://aws.amazon.com/blogs/mobile/introducing-support-for-hosting-any-ssr-app-on-aws-amplify-hosting/)
 
@@ -64,7 +63,7 @@ I've been building products and services for the past 15 years. I've worked on a
 - [Test-Driven Data Science: Writing Unit Tests for SASPy Python Data Processes](https://www.sas.com/content/dam/SAS/support/en/sas-global-forum-proceedings/2018/2347-2018.pdf) 
 
 
-### Contact
+### contact
 
 - [github - @siegerts](https://github.com/siegerts)
 - [twitter - @siegerts](https://twitter.com/siegerts)
@@ -73,6 +72,6 @@ I've been building products and services for the past 15 years. I've worked on a
 
 
 
-### Stay up to date
+### stay up to date
 
 - [RSS feed](https://www.xiegerts.com/post/index.xml)
