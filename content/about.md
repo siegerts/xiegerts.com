@@ -22,6 +22,10 @@ I've been building products and services for the past 15 years. I've worked on a
 
 - [lowercase.app](https://www.lowercase.app) - a simple way to take and share notes. The Hacker News discussion is [here](https://news.ycombinator.com/item?id=40248217).
 
+
+- [dossi.dev](https://www.dossi.dev) - Open source [browser extension](https://github.com/siegerts/dossi-ext) and [web app](https://github.com/siegerts/dossi-app) to keep track of your own private GitHub notes.
+
+
 - [Add to Sheets](https://www.addtosheets.com) - a Chrome extension to quickly add content to Google Sheets. The extension is published in the [Chrome Web Store](https://chromewebstore.google.com/detail/hgilhmbegaanegfbcppneigcmhgoinib).
 
 
@@ -29,9 +33,6 @@ I've been building products and services for the past 15 years. I've worked on a
 
 
 - [Best Reminder App](https://www.bestreminderapp.com) - A Chrome extension that makes it easy to create reminder notifications for tab URLs and notes in your browser. Tailor your alerts with custom intervals — whether it’s every '23 minutes' or on recurring weekdays like 'every Wednesday, Friday'. Give it a try and [schedule your reminders](https://chrome.google.com/webstore/detail/best-reminder-app/dnpkpjllkijgiiedcbjjkccmhcgoebbf)!
-
-
-- [dossi.dev](https://www.dossi.dev) - Open source browser extension and web app to keep track of your own private GitHub notes.
 
 
 - LineupGen - (currently rebuilding) The quickest way to generate unique Daily Fantasy Sports lineups injected with AI, with one API call.
