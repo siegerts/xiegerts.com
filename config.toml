@@ -7,9 +7,10 @@ enableEmoji = true
 
 copyright = "© 2024 Copyright Stephen Siegert (<a href='https://twitter.com/siegerts' class='link black-40'>@siegerts</a>). All rights reserved."
 
+
 [services]
   [services.googleAnalytics]
-    ID = "UA-134038089-1"
+    ID = "G-6JXCE8NWLX"
 
 [markup]
   [markup.goldmark]
