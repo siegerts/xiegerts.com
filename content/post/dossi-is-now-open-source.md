@@ -16,9 +16,9 @@ date = 2024-05-04T19:33:55-05:00
 
 I built dossi as a way to keep track of my own notes for GitHub issues and pull requests across multiple repositories and organizations.
 
-Personally, a challenge that I kept running into was just saving general thoughts in the moment when I found a new open source project or issue that I knew I'd want to come back to later. Initially, this was to help with issue triage and reproducibility.
+Personally, a challenge that I kept running into was just saving general thoughts at the moment when I found a new open-source project or issue that I knew I'd want to come back to later. Initially, this was to help with issue triage and reproducibility.
 
-And for organizations that I was a part of, I wanted something more private than just having the GitHub visibility set to private (just for myself). I felt that the existing tools were too focused on teams building and collaborating on code, and not enough on the experience of those that are also supporting customers and users of the software. Later, I found that I was able to track increases in interest (reactions) on issues and keep track of the general sentiment around a request or issue.
+For organizations that I was a part of, I wanted something more private than just having the GitHub visibility set to private (just for myself). I felt that the existing tools were too focused on teams building and collaborating on code, and not enough on the experience of those that are also supporting customers and users of the software. Later, I found that I was able to track increases in interest (reactions) on issues and keep track of the general sentiment around a request or issue.
 
 Yes, there are GitHub notifications and stars, but that quickly becomes overwhelming especially when you're working across an organization or multiple organizations with a lot of repositories, in addition to your own personal projects.
 
@@ -31,14 +31,14 @@ The project (obviously) started as a closed source project. I wasn't 100% sure w
 
 Browser extensions definitely have their own set of challenges, especially when it comes to the UI and UX. I used the [Plasmo](https://github.com/PlasmoHQ/plasmo) extension framework to get started quickly, iterate fast, and not have to worry about the boilerplate code that comes with building a browser extension especially when it comes to the Manifest v3 configuration.
 
-Most of the time spent was the parity between the extension and the web app with the UI look and feel. Extension content script styling has some challenges since you can have collisions with the host page's CSS. dossi uses [shadcn/ui](https://ui.shadcn.com/) for the UI components which made it easy to keep the UI look and feel consistent across the extension and the web app - but uses Tailwind for the styling. GitHub _also uses Tailwind_ so there are challenges that required some overrides to make sure the UI components looked consistent across the extension and the web app.
+Most of the time spent was the parity between the extension and the web app with the UI look and feel. Extension content script styling has some challenges since you can have collisions with the host page's CSS. dossi uses [shadcn/ui](https://ui.shadcn.com/) for the UI components which makes it easy to keep the UI look and feel consistent across the extension and the web app - but uses Tailwind for the styling. GitHub _also uses Tailwind_ so there are challenges that require some overrides to make sure the UI components look consistent across the extension and the web app.
 
 
 ### Separating the extension and web app
 
 The first decision is the separation of functionality between the browser extension and the web app.
 
-Thinking back, I could have forgone the web app and just used the browser extension as the main interface. That may be something to consider in the future and would simplify the the architecture quite a bit. I wanted to have a meta view of all of the notes across all of the repositories and organizations that I was keeping track of - and filter and search across them.
+Thinking back, I could have forgone the web app and just used the browser extension as the main interface. That may be something to consider in the future and would simplify the architecture quite a bit. I wanted to have a meta-view of all of the notes across all of the repositories and organizations that I was keeping track of - and filter and search across them.
 
 That said, there is some nice flexibility in having the API separate from the extension. 
 
@@ -48,10 +48,10 @@ A few things come to mind...
 Changes to the storage schema can be managed in the API (and API versioning) and not have to worry about the extension _and the extension review process_ that can take a few days to publish an updated version
 
 #### Chrome storage API
-Using the [chrome.storage](https://developer.chrome.com/docs/extensions/reference/api/storage) API is flexible but backwards compatibility can be a challenge. Typically, the first suggestion is to use a storage library or database but troubleshooting client-side migrations for users usually requires a an uninstall/reinstall of the extension. This is not ideal for a user that has a lot of notes saved since they will lose all of their notes. Users will likely just stop using the extension if they have to do this.
+Using the [chrome.storage](https://developer.chrome.com/docs/extensions/reference/api/storage) API is flexible but backward compatibility can be a challenge. Typically, the first suggestion is to use a storage library or database but troubleshooting client-side migrations for users usually requires an uninstall/reinstall of the extension. This is not ideal for a user who has a lot of notes saved since they will lose all of their notes. Users will likely just stop using the extension if they have to do this.
 
 #### Data model complexity
-The mental model of the Storage API can get complex quickly when the extension is interaction with it in multiple ways across background scripts, content scripts, and popup scripts.
+The mental model of the Storage API can get complex quickly when the extension interacts with it in multiple ways across background scripts, content scripts, and popup scripts.
 
 #### Meta datatable view
 The web app can be used as a backup for notes and also as a way to view notes across multiple devices. This is something that I thought could be a potential use case in the future.
@@ -63,14 +63,14 @@ It felt limiting to restrict the notes to just the extension. I wanted to be abl
 
 #### Integration with other services
 
-I've given thought around integrating with other services like Slack, Discord, and email to send notifications and reminders about notes that are saved. And, also the ability to share notes with other users (or organizations) that are also using dossi.
+I've given thought to integrating with other services like Slack, Discord, and email to send notifications and reminders about notes that are saved. And, also the ability to share notes with other users (or organizations) that are also using dossi.
 
 
 ### Auth state management
 
-The extension and web app use [NextAuth.js](https://next-auth.js.org/) for authentication. This was a decision to reduce the friction of auth state between the extension and the web app. The extension uses the NextAuth.js client to authenticate and use the host permissions of the extension to use the session cookie to authenticate with the API. The host permissions are set to the API of the web app. This allows the extension to use the session cookie to authenticate with the API and not have to worry about the Chrome storage API to manage the auth state. Also, if a user is already authenticated with the web app, they will be automatically authenticated with the extension. This is a nice feature to have since the extension can be used across multiple devices and the auth state is managed in one place.
+The extension and web app use [NextAuth.js](https://next-auth.js.org/) for authentication. This was a decision to reduce the friction of auth state between the extension and the web app. The extension uses the NextAuth.js client to authenticate and uses the host permissions of the extension to use the session cookie to authenticate with the API. The host permissions are set to the API of the web app. This allows the extension to use the session cookie to authenticate with the API and not have to worry about the Chrome storage API to manage the auth state. Also, if a user is already authenticated with the web app, they will be automatically authenticated with the extension. This is a nice feature to have since the extension can be used across multiple devices and the auth state is managed in one place.
 
-That said, although users sign in with their GitHub account, _the GitHub API is not used for data access or retrieval_. This was a decision to keep the notes private and not have to worry about the GitHub API rate limits. Also, I was contemplating of expanding the notes to other services and didn't want to be tied to the GitHub API.
+That said, although users sign in with their GitHub account, _the GitHub API is not used for data access or retrieval_. This was a decision to keep the notes private and not have to worry about the GitHub API rate limits. Also, I was contemplating expanding the notes to other services and didn't want to be tied to the GitHub API.
 
 The interaction between the extension and the web app is shown in the diagram below:
 
@@ -149,7 +149,7 @@ As and aside, the use of TanStack/react-query was a game changer for me. I was a
 
 The API is hosted on Vercel and the extension is hosted on the Chrome Web Store and Firefox Add-ons. The extension submission process differs between the Chrome Web Store and Firefox Add-ons. 
 
-For the extension, I haven't automated the end to end testing and deployment process. I like to spot the builds and versioning before uploading the artifacts to the web stores. 
+For the extension, I haven't automated the end-to-end testing and deployment process. I like to spot the builds and versioning before uploading the artifacts to the web stores. 
 
 The web app and API are integrated with the GitHub repos and automatically deploy on push to the main branch.
 
