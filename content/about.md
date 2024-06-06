@@ -53,14 +53,6 @@ I've been building products and services for the past 15 years. I've worked on a
 
 - [Driving Action and Communication in AWS Amplify Open Source Projects](https://aws.amazon.com/blogs/opensource/driving-action-and-communication-in-aws-amplify-open-source-projects/)
 
-- [Getting Started with Flask and RStudio Connect](https://support.rstudio.com/hc/en-us/articles/360044700234-Getting-Started-with-Flask-and-RStudio-Connect)
-
-- [Deploying Flask Applications to RStudio Connect with Git and rsconnect-python](https://support.rstudio.com/hc/en-us/articles/360045224233)
-
-- [Using Templates and Static Assets with Flask Applications on RStudio Connect](https://support.rstudio.com/hc/en-us/articles/360045279313)
-
-- [Using Flask-SQLAlchemy with Flask Applications on RStudio Connect](https://support.rstudio.com/hc/en-us/articles/360045926213-Using-Flask-SQLAlchemy-with-Flask-Applications-on-RStudio-Connect)
-
 - [Test-Driven Data Science: Writing Unit Tests for SASPy Python Data Processes](https://www.sas.com/content/dam/SAS/support/en/sas-global-forum-proceedings/2018/2347-2018.pdf) 
 
 
