@@ -24,6 +24,17 @@ Yes, there are GitHub notifications and stars, but that quickly becomes overwhel
 
 {{< youtube id="wgGGjAqa3L8" >}}
 
+## Features
+
+- **Sidepanel** overlay on GitHub pages to add, edit, and delete notes
+  - Label creation
+  - Pin pages to view later
+  - Note management (create, read, update, delete, sort) with "light" markdown support
+- Extension **Popup** window to view recent activity and pins
+- Content script button to open the sidepanel overlay and display the number of notes for the current page
+- **Transferred page detection** to prompt the user to transfer notes to the new page entity
+- **Web app** to view all notes across all repositories and organizations
+
 
 ## Development
 
