@@ -48,10 +48,10 @@ A few things come to mind...
 Changes to the storage schema can be managed in the API (and API versioning) and not have to worry about the extension _and the extension review process_ that can take a few days to publish an updated version
 
 #### Chrome storage API
-Using the Chrome storage API is flexible but backwards compatibility can be a challenge. Typically, the first suggestion is to use a storage library or database but troubleshooting client-side migrations for users usually requires a an uninstall/reinstall of the extension. This is not ideal for a user that has a lot of notes saved since they will lose all of their notes. Users will likely just stop using the extension if they have to do this.
+Using the [chrome.storage](https://developer.chrome.com/docs/extensions/reference/api/storage) API is flexible but backwards compatibility can be a challenge. Typically, the first suggestion is to use a storage library or database but troubleshooting client-side migrations for users usually requires a an uninstall/reinstall of the extension. This is not ideal for a user that has a lot of notes saved since they will lose all of their notes. Users will likely just stop using the extension if they have to do this.
 
 #### Data model complexity
-The mental model of the Chrome storage API can get complex quickly when the extension is interaction with it in multiple ways across background scripts, content scripts, and popup scripts.
+The mental model of the Storage API can get complex quickly when the extension is interaction with it in multiple ways across background scripts, content scripts, and popup scripts.
 
 #### Meta datatable view
 The web app can be used as a backup for notes and also as a way to view notes across multiple devices. This is something that I thought could be a potential use case in the future.
