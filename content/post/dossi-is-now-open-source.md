@@ -159,7 +159,10 @@ Overall, I'm excited to see what the community does with the project. It seemed 
 
 I've already received some feedback and feature requests that I'm excited to work on, so stay tuned for updates.
 
-If you have any feedback or feature requests, feel free to open an issue on the GitHub repository or reach out to me on Twitter [@siegerts](https://twitter.com/siegerts).
+If you have any feedback or feature requests, feel free to open an issue on the GitHub repositories below or reach out to me on Twitter [@siegerts](https://twitter.com/siegerts).
+
+- [Browser extension](https://github.com/siegerts/dossi-ext)
+- [Web app and API](https://github.com/siegerts/dossi-ext)
 
 
 
