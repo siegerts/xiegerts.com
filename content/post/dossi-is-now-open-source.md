@@ -137,6 +137,8 @@ graph TB
 
 The tech stack was largely driven by the use of Next.js, NextAuth.js, [Prisma](https://www.prisma.io/), and shadcn/ui. I've recently migrated the database to a serverless Postgres database using [Neon Postgres](https://neon.tech/) from MySQL (more on this in a future post). Locally, I build and test using a development database branch using Neon branches. I'd like to lean more into Postgres features and extensions in the future.
 
+Here's a breakdown of what's used in different parts of the project:
+
 
 | Tech                | Description                     | Browser extension | Web app | API |
 |---------------------|---------------------------------|:-------------------:|:---------:|:----------:|
