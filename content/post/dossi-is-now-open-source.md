@@ -10,7 +10,7 @@ date = 2024-05-04T19:33:55-05:00
 [dossi](https://dossi.dev), a browser extension and web app to keep track of your own private GitHub notes is now open source.
 
 - [Browser extension](https://github.com/siegerts/dossi-ext)
-- [Web app and API](https://github.com/siegerts/dossi-ext)
+- [Web app and API](https://github.com/siegerts/dossi-app)
 
 ## Backstory
 
@@ -175,7 +175,7 @@ I've already received some feedback and feature requests that I'm excited to wor
 If you have any feedback or feature requests, feel free to open an issue on the GitHub repositories below or reach out to me on Twitter [@siegerts](https://twitter.com/siegerts).
 
 - [Browser extension](https://github.com/siegerts/dossi-ext)
-- [Web app and API](https://github.com/siegerts/dossi-ext)
+- [Web app and API](https://github.com/siegerts/dossi-app)
 
 
 
