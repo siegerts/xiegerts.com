@@ -8,11 +8,8 @@ I try to keep things simple.
 
 I've been building products and services for the past 15 years. I've worked on a variety of projects, from building browser extensions to SaaS products. Recently, I've consulted with startups and enterprises on building Chrome extensions, full stack serverless applications, and cloud-native architectures.
 
-- Developer Advocate @ [Neon - Cloud Postgres](https://neon.tech/)
+- Developer Advocate @ [Neon - Serverless Postgres](https://neon.tech/)
 - Founder @ [lowercase.app](https://www.lowercase.app) - a simple way to take and share notes.
-
-### previously
-
 - Senior Product Manager, Technical @ [AWS](https://aws.amazon.com/amplify/)
 - Senior Solutions Architect @ [AWS](https://aws.amazon.com/amplify/)
 - Software Development Manager @ [SAS Software](https://www.sas.com/)
