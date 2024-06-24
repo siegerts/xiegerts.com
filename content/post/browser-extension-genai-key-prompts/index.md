@@ -62,7 +62,7 @@ Extensions backed by hosted API that integrates with LLM model providers...
 
 - Pricing model: Typically a flat rate subscription fee, usage (credit) based, or both. This complicates the tracking of usage and billing for the user and couples the extension to the API provider.
 - Abuse: Since the extension is a client-side application, users can abuse the API. This could be in the form of excessive requests or malicious content. Even if the user is subscribed to dossi, they may try to refute the charges after using the LLM functionality.
-- User-defined input: Accepting, processing, and *relying* on arbitrary input (like GitHub issues) has a bunch of edge cases to account for (\*more on counting prompt input tokens below)
+- User-defined input: Accepting, processing, and *relying* on arbitrary input (like GitHub issues) has a bunch of edge cases to account for (more on counting prompt input tokens below)
 - Prompt response formatting: Everything works well until it doesn't. The response from the LLM model may not be what the user expects. This could be due to the prompt, the input, or the model itself.
 - Handling errors without UX degradation
 
