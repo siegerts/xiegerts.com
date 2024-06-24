@@ -206,7 +206,7 @@ const promptSchema = z.object({
 })
 ```
 
-These parameters are passed along with **1)** the parsed page, and **2)** any previous notes on the page to include as context.
+These parameters are passed along with **1)** the parsed page, and **2)** any previous dossi notes for the page (i.e. dossi entity) to include as context.
 
 ```typescript
 const openai = new OpenAI({
