@@ -322,3 +322,5 @@ Also, the live API documentation is live at the `https://<endpoint>/docs` and `h
 
 
 This is just scratching the surface of configuration options. Hope this helps you get running quickly with serverless FastAPI backends!
+
+If you have any questions or feedback, feel free to reach out on [X @siegerts](https://x.com/siegerts).
