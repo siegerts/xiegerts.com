@@ -300,4 +300,6 @@ The [browser extension and the web app are both open source](/post/dossi-is-now-
 - [Browser extension](https://github.com/siegerts/dossi-ext)
 - [Web app and API](https://github.com/siegerts/dossi-app)
 
-The extension is available in the [Chrome Web Store](https://chromewebstore.google.com/detail/ogpcmecajeghflaaaennkmknfpeghffm).
+The extension is available in the [Chrome Web Store](https://chromewebstore.google.com/detail/ogpcmecajeghflaaaennkmknfpeghffm). 
+
+If you have any questions or feedback, feel free to reach out on [X @siegerts](https://x.com/siegerts).

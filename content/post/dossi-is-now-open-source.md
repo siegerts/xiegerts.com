@@ -180,6 +180,8 @@ If you have any feedback or feature requests, feel free to open an issue on the 
 The extension is available in the [Chrome Web Store](https://chromewebstore.google.com/detail/ogpcmecajeghflaaaennkmknfpeghffm).
 
 
+If you have any questions or feedback, feel free to reach out on [X @siegerts](https://x.com/siegerts).
+
 
 
 
