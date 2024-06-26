@@ -147,6 +147,12 @@ patterns.forEach((pattern, pos) => {
 3. The `chrome.webNavigation.onCommitted` event listener is triggered when the URL has changed. If the URL has a `server_redirect` transition qualifier, the extension checks if the URL has changed and if the URL is the same as the URL stored in the `onBeforeNavigate` event listener. If the URL has changed but the pattern type is the same, the extension stores the redirect URL in the storage.
 4. The UI then displays a notification to the user in the side panel overlay.
 
+{{< note >}}
+
+**Note**: The `server_redirect` transition qualifier is one or more redirects caused by HTTP headers sent from the server happened during the navigation.
+
+{{< /note >}}
+
 
 ## Request lifecycle breakdown
 
