@@ -115,7 +115,7 @@ export const customer = sqliteTable('customer', {
 });
 ```
 
-The use of D1 is very compelling for this setup since the entire **1/** API is located in Cloudflare, **2/** it's SQL-based and works well with [Drizzle ORM](https://orm.drizzle.team/), and **3/** the overhead to maintain is minimal (if at all). The `drizzle-orm` package is used to interact with the database and execute SQL queries.
+The use of D1 is very compelling for this setup since the entire **1/** API is located in Cloudflare, **2/** it's SQL-based and works well with [Drizzle ORM](https://orm.drizzle.team/), and **3/** the overhead to maintain is minimal. The `drizzle-orm` package is used to interact with the database and execute SQL queries.
 
 ## Verifying Lemon Squeezy webhooks in a Cloudflare Worker
 
