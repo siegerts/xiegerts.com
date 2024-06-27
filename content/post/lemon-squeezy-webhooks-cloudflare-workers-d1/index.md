@@ -130,7 +130,6 @@ The Worker uses [Hono](https://hono.dev/), a lightweight framework for Cloudflar
 import { Hono } from 'hono';
 import { logger } from 'hono/logger';
 import { drizzle } from 'drizzle-orm/d1';
-import { eq } from 'drizzle-orm';
 import { customer } from './../db/schema';
 
 type Env = {
