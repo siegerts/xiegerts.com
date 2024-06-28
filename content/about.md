@@ -56,7 +56,7 @@ I've been building products and services for the past 15 years. I've worked on a
 ### contact
 
 - [github - @siegerts](https://github.com/siegerts)
-- [twitter - @siegerts](https://twitter.com/siegerts)
+- [x - @siegerts](https://x.com/siegerts)
 - [linkedin - @siegerts](https://www.linkedin.com/in/siegerts/)
 
 
