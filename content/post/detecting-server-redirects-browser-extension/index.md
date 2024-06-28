@@ -10,8 +10,12 @@ tags = [
   "chromium"
 ]
 
-categories = ["Development"]
+
 date = 2024-06-25T10:33:55-05:00
+
+categories = ["Development", "Browser Extensions"]
+
+series = "Developing Browser Extensions"
 +++
 
 

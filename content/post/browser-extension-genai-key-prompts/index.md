@@ -19,6 +19,8 @@ tags = [
 date = 2024-06-24T01:34:21-04:00
 categories = ["Development", "Open Source"]
 
+series = "Developing Browser Extensions"
+
 +++
 
 I recently added support (`v1.1.0+`) for bringing your OpenAI API to [dossi](https://dossi.dev) as an opt-in feature. This allows users to use their own OpenAI API key and prompts in the browser extension alongside parsed GitHub issue and discussion content. 

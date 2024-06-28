@@ -3,8 +3,12 @@ title = "dossi is now open source"
 description = "dossi, a browser extension and web app to keep track of your own private GitHub notes is now open source."
 tags = ["chrome extension","firefox addon", "browser extension", "web app", "github", "notes", "open source", "serverless", "postgres", "nextjs", "nextauth", "prisma", "react-query", "stripe", "vercel"]
 
-categories = ["Development"]
+
 date = 2024-05-04T19:33:55-05:00
+
+categories = ["Development", "Browser Extensions"]
+series = "Developing Browser Extensions"
+
 +++
 
 [dossi](https://dossi.dev), a browser extension and web app to keep track of your own private GitHub notes is now open source.
