@@ -47,21 +47,34 @@
            
         </div>
         
-        <ul class="list pl0 pt3">
-          <!-- pages -->
-          <!-- prettier-ignore -->
-          <li class="b mv3">
-            <a class="b pa1 black no-underline" href="/post">all posts</a>
-          </li>
-          <li class="b mv3">
-            <a class="b pa1 black no-underline" href="/about">about</a>
-          </li>
-          <!-- <li class="b mv3">
-            <a class="f4 b pa1 black" href=""></a>
-          </li> -->
-          <!-- prettier-ignore -->
-        
-        </ul>
+        <div class="mt4">
+          <h3>recent posts</h3>
+          <ul class="list pl0">
+            {{ range first 4 (where .Site.RegularPages "Type" "post") }}
+              <li class="list pl0 lh-copy mv1">
+                <a
+                  class="f5 b dib black no-underline"
+                  href="{{ .Permalink}}"
+                  >{{ .Title }}</a
+                >
+                <span class="f6 gray">{{ .Date.Format "January 2, 2006" }}</span>
+              </li>
+            {{ end }}
+          </ul>
+        </div>
+
+        <hr class="mv4" />
+
+        <div class="mt3">
+          <h3 class="b mv3">
+            <a class="b pa1 black no-underline" href="/post">→ all posts</a>
+          </h3>
+          <h3 class="b mv3">
+            <a class="b pa1 black no-underline" href="/about">→ about</a>
+          </h3>
+        </div>
+
+
       </div>
     </section>
 
