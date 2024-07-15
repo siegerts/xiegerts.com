@@ -114,3 +114,5 @@ export default NextAuth({
 
 
 ```
+
+If you have any questions or feedback, feel free to reach out on [X @siegerts](https://x.com/siegerts).

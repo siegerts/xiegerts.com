@@ -590,4 +590,5 @@ Wow, that escalated quickly :wink:. This is a general setup that can be repeated
 
 In the next post, we'll [deploy the new documentation site to Netlify](/post/creating-vue-component-library-deploy/). After that, we'll publish the component library plugin available for distribution by publishing on **npm**.
 
-As always, please reach out if you have any questions or advice :dog:.
+As always, please reach out ([X @siegerts](https://x.com/siegerts)) if you have any questions or advice :dog: 
+

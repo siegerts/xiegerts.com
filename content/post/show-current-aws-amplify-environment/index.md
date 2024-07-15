@@ -98,3 +98,5 @@ Now the environment is displayed alongside the Git branch that is active. This i
 <br />
 
 Hopefully that helps keep your Amplify environments visually in sync with your current Git branch 🌲.
+
+If you have any questions or feedback, feel free to reach out on [X @siegerts](https://x.com/siegerts).

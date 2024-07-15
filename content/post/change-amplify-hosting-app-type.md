@@ -82,4 +82,4 @@ If you need to change the app to SSG, then follow the steps outlined in the [Amp
 
 The rewrite will be added after the SSR app is built/deployed. You should already have one of the rewrite lines in that config if one of your branches is SSR and successfully deploying.
 
-
+If you have any questions or feedback, feel free to reach out on [X @siegerts](https://x.com/siegerts).

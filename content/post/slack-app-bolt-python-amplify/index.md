@@ -435,6 +435,8 @@ Once you start listening for other events, you'll need to verify your endpoint c
 
 Hope that helps! :rocket:
 
+If you have any questions or feedback, feel free to reach out on [X @siegerts](https://x.com/siegerts).
+
 
 
 

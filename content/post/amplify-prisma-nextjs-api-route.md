@@ -100,3 +100,4 @@ Add just like that you can now power API routes using Prisma. You can add additi
 
 Also, this can be redeployed in the previous app to run on Amplify Hosting :rocket:.
 
+If you have any questions or feedback, feel free to reach out on [X @siegerts](https://x.com/siegerts).

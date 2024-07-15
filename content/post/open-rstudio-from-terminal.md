@@ -56,3 +56,6 @@ No .Rproj file found in directory.
 or open the project in the current working directory in RStudio.
 
 Have fun :rocket: :sparkles:
+
+
+If you have any questions or feedback, feel free to reach out on [X @siegerts](https://x.com/siegerts).

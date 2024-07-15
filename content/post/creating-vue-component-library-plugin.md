@@ -176,3 +176,6 @@ Also, always remember to populate a `name` attribute in your components if using
 <small class="black-40">Give your components a name :point_up:</small>
 
 Next up, tightening the feedback loop plus a hint of [amazing documentation](/post/creating-vue-component-library-documentation/) with VuePress :volcano:.
+
+
+If you have any questions or feedback, feel free to reach out on [X @siegerts](https://x.com/siegerts).

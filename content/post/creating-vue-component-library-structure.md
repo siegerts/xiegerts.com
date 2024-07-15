@@ -264,3 +264,6 @@ export { List, ListItem } from './ListComponents'
 ```
 
 The foundation is now set to add on the documentation part of the library :book:. But first, we'll [consolidate the components into a plugin](/post/creating-vue-component-library-plugin/)! We'll get to that next.
+
+
+If you have any questions or feedback, feel free to reach out on [X @siegerts](https://x.com/siegerts).
