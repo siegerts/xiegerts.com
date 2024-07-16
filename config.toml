@@ -39,6 +39,9 @@ copyright = "© 2024 Copyright Stephen Siegert (<a href='https://x.com/siegerts'
   twitter = "siegerts"
   description = "Thoughts, tutorials, and other things that I'm working on."
 
+[params.social]
+twitter = "@siegerts"
+
 [Permalinks]
   blog = "blog/:slug"
 

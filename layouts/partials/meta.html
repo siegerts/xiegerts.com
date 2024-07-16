@@ -9,52 +9,78 @@
   {{ end }}"
 />
 
-<meta name="keywords" content="{{ if .Keywords }}{{ range.Keywords }}{{ . }},
-{{ end }}{{else if isset .Params "tags" }}{{ range.Params.tags }}{{ . }},
-{{ end }}{{ end }}">
+<!-- Open Graph / Facebook -->
+<meta property="og:url" content="{{ .Permalink }}">
 
-<!-- open graph -->
-<meta property="og:type" content="article" />
-<meta
-  property="og:description"
-  content="{{ if .Description}}{{.Description}}{{else}}{{.Site.Params.description}}
-{{ end }}"
-/>
-<meta property="og:title" content="{{ .Title }}" />
-<meta property="og:site_name" content="{{ .Site.Title }}" />
-{{ if .Params.thumbnail }}
-  <meta property="og:image" content="{{ .Params.thumbnail | absURL }}">
-{{ end }}
-<meta property="og:image:type" content="image/png" />
-<meta property="og:image:width" content="" />
-<meta property="og:image:height" content="" />
-<meta property="og:url" content="{{ .Permalink }}" />
-<meta property="og:locale" content="{{ .Site.LanguageCode }}" />
-<meta property="article:published_time" content="{{ .Date.Format "2006-01-02"}}
-" /> <meta property="article:modified_time" content="{{ .Date.Format "2006-01-02"}}
-" />
+{{- with or site.Title site.Params.title | plainify }}
+  <meta property="og:site_name" content="{{ . }}">
+{{- end }}
 
-{{if .Keywords }}
-{{ range.Keywords }}<meta property="article:tag" content="{{ . }}" />
-{{ end }}
-{{else if isset .Params "tags" }}
-{{ range.Params.tags }}<meta property="article:tag" content="{{ . }}" />
-{{ end }}
-{{ end }}
+{{- with or .Title site.Title site.Params.title | plainify }}
+  <meta property="og:title" content="{{ . }}">
+{{- end }}
 
-{{if .Site.Params.twitter }}
-<meta name="twitter:card" content="{{ if .Params.cardType }}{{.Params.cardType}}{{else}}summary{{ end }}" />
-<meta name="twitter:site" content="@{{ .Site.Params.twitter }}" />
-<meta name="twitter:creator" content="@{{ .Site.Params.twitter }}" />
-<meta name="twitter:title" content="{{ if .Title }}{{ .Title }}{{ end }}" />
-<meta
-  name="twitter:description"
-  content="{{ if .Description}}{{.Description}}{{else}}{{.Site.Params.description}}
-  {{ end }}"
-/>
+{{- with or .Description .Summary site.Params.description | plainify | htmlUnescape | chomp }}
+  <meta property="og:description" content="{{ . }}">
+{{- end }}
 
-{{ if .Params.thumbnail }}
+{{- with or .Params.locale site.Language.LanguageCode }}
+  <meta property="og:locale" content="{{ replace . `-` `_` }}">
+{{- end }}
+
+{{- if .IsPage }}
+  <meta property="og:type" content="article">
+  {{- with .Section }}
+    <meta property="article:section" content="{{ . }}">
+  {{- end }}
+  {{- $ISO8601 := "2006-01-02T15:04:05-07:00" }}
+  {{- with .PublishDate }}
+    <meta property="article:published_time" {{ .Format $ISO8601 | printf "content=%q" | safeHTMLAttr }}>
+  {{- end }}
+  {{- with .Lastmod }}
+    <meta property="article:modified_time" {{ .Format $ISO8601 | printf "content=%q" | safeHTMLAttr }}>
+  {{- end }}
+  {{- range .GetTerms "tags" | first 6 }}
+    <meta property="article:tag" content="{{ .Page.Title | plainify }}">
+  {{- end }}
+{{- else }}
+  <meta property="og:type" content="website">
+{{- end }}
+
+{{- with partial "_funcs/get-page-images" . }}
+  {{- range . | first 6 }}
+    <meta property="og:image" content="{{ .Permalink }}">
+  {{- end }}
+{{- end }}
+
+{{- with .Params.audio }}
+  {{- range . | first 6  }}
+    <meta property="og:audio" content="{{ . | absURL }}">
+  {{- end }}
+{{- end }}
+
+{{- with .Params.videos }}
+  {{- range . | first 6 }}
+    <meta property="og:video" content="{{ . | absURL }}">
+  {{- end }}
+{{- end }}
+
+{{- $posts := where .Site.RegularPages "Params.series" "eq" .Params.series }}
+{{- if and (gt ($posts | len) 1) (ne .Params.series nil) }}
+  {{- range $posts }}
+    {{- if ne $.RelPermalink .RelPermalink }}
+      <meta property="og:see_also" content="{{ .Permalink }}">
+    {{- end }}
+  {{- end }}
+{{- end }}
+
+<!-- Twitter -->
+{{ template "_internal/twitter_cards.html" . }}
+{{- if .Params.thumbnail }}
   <meta property="twitter:image" content="{{ .Params.thumbnail | absURL }}">
-{{ end }}
+{{- end }}
 <meta name="twitter:domain" content="{{ .Permalink }}" />
-{{ end }}
+<meta name="twitter:creator" content="@{{ .Site.Params.twitter }}" />
+
+<!-- Microdata -->
+{{ template "_internal/schema.html" . }}
