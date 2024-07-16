@@ -15,8 +15,7 @@ date = 2021-05-08T12:08:30-04:00
 categories = ["Development", "Tooling"]
 series = "100 Days of AWS Amplify"
 
-thumbnail = "images/active-env-header.png"
-cardType = "summary_large_image"
+images = ["featured.png"]
 
 [[resources]]
   name = "amplify-environment"

@@ -17,8 +17,7 @@ tags = [
 
 categories = ["Development", "Serverless", "Authentication"]
 
-thumbnail = "images/nextjs-amplify-ui-auth.png"
-cardType = "summary_large_image"
+images = ["featured.png"]
 
 series = "100 Days of AWS Amplify"
 

@@ -13,8 +13,7 @@ tags = [
     "SSM"
 ]
 
-thumbnail = "images/nextjs-prisma-amplify-hosting.png"
-cardType = "summary_large_image"
+images = ["featured.png"]
 
 categories = ["Development", "Serverless"]
 

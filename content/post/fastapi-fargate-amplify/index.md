@@ -16,8 +16,7 @@ tags = [
     "auto scale",
 ]
 
-thumbnail = "images/fargate-fastapi-header.png"
-cardType = "summary_large_image"
+images = ["featured.png"]
 
 date = 2021-05-11T23:34:21-04:00
 categories = ["Development", "Serverless"]

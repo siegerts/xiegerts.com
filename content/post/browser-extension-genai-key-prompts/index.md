@@ -13,11 +13,13 @@ tags = [
     "open source maintainers",
 ]
 
-# thumbnail = ""
-# cardType = "summary_large_image"
 
 date = 2024-06-24T01:34:21-04:00
 categories = ["Development", "Open Source"]
+videos = [
+  "http://www.youtube.com/v/q82eoIh1ecI", 
+  "http://www.youtube.com/v/v0DEt2WxwLk"
+]
 
 series = "Developing Browser Extensions"
 

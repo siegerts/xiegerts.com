@@ -17,8 +17,8 @@ tags = [
     "deployment"
 ]
 
-thumbnail = "images/slack-python-amplify-header.png"
-cardType = "summary_large_image"
+images = ["featured.png"]
+
 date = 2021-05-24T21:47:41-04:00
 categories = ["Development", "Serverless"]
 series = "100 Days of AWS Amplify"
