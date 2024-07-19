@@ -131,6 +131,7 @@ import { Hono } from 'hono';
 import { logger } from 'hono/logger';
 import { drizzle } from 'drizzle-orm/d1';
 import { customer } from './../db/schema';
+import { hexToUint8Array } from '../lib/utils';
 
 type Env = {
   DB: D1Database;
