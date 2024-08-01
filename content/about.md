@@ -23,7 +23,7 @@ I've been building products and services for the past 15 years. I've worked on a
 - [dossi.dev](https://www.dossi.dev) - Open source [browser extension](https://github.com/siegerts/dossi-ext) and [web app](https://github.com/siegerts/dossi-app) to keep track of your own private GitHub notes.
 
 
-- [Add to Sheets](https://www.addtosheets.com) - a Chrome extension to quickly add content to Google Sheets. The extension is published in the [Chrome Web Store](https://chromewebstore.google.com/detail/hgilhmbegaanegfbcppneigcmhgoinib).
+- [Add to Sheets Chrome extension](https://www.addtosheets.com) - a Chrome extension to quickly add content to Google Sheets. The extension is published in the [Chrome Web Store](https://chromewebstore.google.com/detail/hgilhmbegaanegfbcppneigcmhgoinib).
 
 
 - [Exercise Chrome Extension](https://www.exercises.so) - A Chrome extension to learn new [fitness exercises](https://chrome.google.com/webstore/detail/exercise/idhbppehmegfahmlnhajakjplaonfkdk) every time you open a new browser tab. A simple way to learn about workouts and stay fit. Each exercise also has a suggested modified version that can be done if you don't have access to a gym. Also, each day a new daily exercise is posted.
