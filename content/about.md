@@ -8,32 +8,28 @@ I try to keep things simple.
 
 I've been building products and services for the past 15 years. I've worked on a variety of projects, from building browser extensions to SaaS products. Recently, I've consulted with startups and enterprises on building Chrome extensions, full stack serverless applications, and cloud-native architectures.
 
-- Developer Advocate @ [Neon - Serverless Postgres](https://neon.tech/)
-- Senior Product Manager, Technical @ [AWS](https://aws.amazon.com/amplify/)
-- Senior Solutions Architect @ [AWS](https://aws.amazon.com/amplify/)
-- Founder @ [lowercase.app](https://www.lowercase.app) - a simple way to take and share notes.
-- Software Development Manager @ [SAS Software](https://www.sas.com/)
- 
+- Developer Advocate @ Neon - Serverless Postgres
+
+- Senior Product Manager, Technical @ Amazon Web Services
+
+- Senior Solutions Architect @ Amazon Web Services
+
+- Software Development Manager @ SAS Institute
 
 ### products
+
+- [Add to Sheets Chrome extension](https://www.addtosheets.com) - a Chrome extension to quickly add content to Google Sheets. The extension is published in the [Chrome Web Store](https://chromewebstore.google.com/detail/hgilhmbegaanegfbcppneigcmhgoinib).
 
 - [lowercase.app](https://www.lowercase.app) - a simple way to take and share notes. The Hacker News discussion is [here](https://news.ycombinator.com/item?id=40248217).
 
 
 - [dossi.dev](https://www.dossi.dev) - Open source [browser extension](https://github.com/siegerts/dossi-ext) and [web app](https://github.com/siegerts/dossi-app) to keep track of your own private GitHub notes.
 
-
-- [Add to Sheets Chrome extension](https://www.addtosheets.com) - a Chrome extension to quickly add content to Google Sheets. The extension is published in the [Chrome Web Store](https://chromewebstore.google.com/detail/hgilhmbegaanegfbcppneigcmhgoinib).
-
-
 - [Exercise Chrome Extension](https://www.exercises.so) - A Chrome extension to learn new [fitness exercises](https://chrome.google.com/webstore/detail/exercise/idhbppehmegfahmlnhajakjplaonfkdk) every time you open a new browser tab. A simple way to learn about workouts and stay fit. Each exercise also has a suggested modified version that can be done if you don't have access to a gym. Also, each day a new daily exercise is posted.
 
+- [Reminder App Extension](https://www.bestreminderapp.com) - A Chrome extension that makes it easy to create reminder notifications for tab URLs and notes in your browser. Tailor your alerts with custom intervals — whether it’s every '23 minutes' or on recurring weekdays like 'every Wednesday, Friday'. Give it a try and [schedule your reminders](https://chrome.google.com/webstore/detail/best-reminder-app/dnpkpjllkijgiiedcbjjkccmhcgoebbf)!
 
-- [Best Reminder App](https://www.bestreminderapp.com) - A Chrome extension that makes it easy to create reminder notifications for tab URLs and notes in your browser. Tailor your alerts with custom intervals — whether it’s every '23 minutes' or on recurring weekdays like 'every Wednesday, Friday'. Give it a try and [schedule your reminders](https://chrome.google.com/webstore/detail/best-reminder-app/dnpkpjllkijgiiedcbjjkccmhcgoebbf)!
-
-
-- LineupGen - (currently rebuilding) The quickest way to generate unique Daily Fantasy Sports lineups injected with AI, with one API call.
-
+- LineupGen - (no longer active) The quickest way to generate unique Daily Fantasy Sports lineups injected with AI, with one API call.
 
 - [Fullstack Digest](https://www.fullstackdigest.com/) - A weekly email digest of fullstack development news and articles.
 
