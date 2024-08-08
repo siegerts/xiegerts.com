@@ -1,0 +1,17 @@
+<footer>
+  <div class="mt5">
+    <h3 class="b mv3">newsletter</h3>
+    <p class="f6 gray mt1 lh-copy">Subscribe to get my latest content by email</p>
+    {{ partial "newsletter.html" . }}
+  </div>
+ 
+  <div>
+    <p class="f6 gray mt1 lh-copy">
+      {{ .Site.Copyright  | safeHTML }}
+    </p>
+  </div>
+</footer>
+
+{{ partial "scripts.html" . }}
+</body>
+</html>
