@@ -21,7 +21,7 @@ date = 2024-08-08T10:33:55-05:00
 
 +++
 
-When crawling pages with [Scrapy](https://scrapy.org/) you'll quickly come across all sorts of scenarios that require you to get creative or interact with the page that you're trying to scrape. One of these scenarios is when you need to crawl an infinite scroll page. This type of website page loads more content as you scroll down the page like a social media feed.
+When crawling websites with [Scrapy](https://scrapy.org/) you'll quickly come across all sorts of scenarios that require you to get creative or interact with the page that you're trying to scrape. One of these scenarios is when you need to crawl an infinite scroll page. This type of website page loads more content as you scroll down the page like a social media feed.
 
 There is definitely more than one way to crawl these types of pages. One way I recently approached this was to continue scrolling until the page length stopped increasing (i.e. scroll to the bottom). This post steps through this process.
 
