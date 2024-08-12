@@ -49,7 +49,7 @@ I've been building products and services for the past 15 years. I've worked on a
 - [Test-Driven Data Science: Writing Unit Tests for SASPy Python Data Processes](https://www.sas.com/content/dam/SAS/support/en/sas-global-forum-proceedings/2018/2347-2018.pdf) 
 
 
-### contact
+### follow and contact
 
 - [github - @siegerts](https://github.com/siegerts)
 - [x - @siegerts](https://x.com/siegerts)
