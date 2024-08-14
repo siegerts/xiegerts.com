@@ -17,6 +17,8 @@ tags = [
 
 categories = [""]
 
+series = "Web Scraping"
+
 date = 2024-08-08T10:33:55-05:00
 
 +++
