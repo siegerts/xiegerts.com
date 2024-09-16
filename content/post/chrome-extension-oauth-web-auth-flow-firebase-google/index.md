@@ -57,12 +57,14 @@ We'll be doing the following:
 - Listen for sign outs, token expiration, token refresh, and token revoke from the Google account
 
 
-## Chrome Identity API
+## Chrome Identity API browser compatibility
 
 Now, should you use your own flow in combination with `chrome.identity.getAuthToken` for Chrome users since it's a stable API and then use your own flow for other browsers? Or should you just use your own flow using `chrome.idenity.launchWebAuthFlow` for all users? That's up to you and your requirements. Just know that, as of now, [`chrome.identity.getAuthToken` doesn't work in Brave](https://github.com/brave/brave-browser/issues/7693) and other Chromium-based browsers - the compatibility is not reliable.
 
 
-`chrome.identity.launchWebAuthFlow` initiates the OAuth 2.0 flow in the Chrome extension and typically provides an authorization code or access token, depending on the OAuth provider's flow. Access tokens obtained via this flow have an expiration time, after which they will become invalid. Refresh tokens, if available, are not automatically managed by Chrome's `launchWebAuthFlow`. You need to explicitly manage them in your extension.
+`chrome.identity.launchWebAuthFlow` initiates the OAuth 2.0 flow in the Chrome extension and typically provides an authorization code or access token, depending on the OAuth provider's flow. Access tokens obtained via this flow have an expiration time, after which they will become invalid. Refresh tokens, if available, are not automatically managed by Chrome's `launchWebAuthFlow`. You need to explicitly manage them in your extension. Most write-ups on this topic will only cover the access token and not the refresh token. This is important because the access token will expire and you'll need the refresh token to get a new access token.
+
+{{< warning >}}
 
 To handle the token revoke, you'll need to listen for sign outs, token expiration, token refresh, and token revoke from the Google account.
 
