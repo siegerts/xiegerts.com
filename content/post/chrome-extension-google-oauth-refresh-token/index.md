@@ -1,5 +1,5 @@
 +++
-title = "Handling Google OAuth Refresh Token in a Chrome Extension"
+title = "Handling Google OAuth Refresh Tokens in a Chrome Extension"
 description = "How to handle the token refresh for the Google OAuth flow in a Chrome extension using an external server API running in a Cloudflare Worker."
 
 tags = [
