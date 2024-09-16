@@ -43,8 +43,8 @@ This might be a little tricky if you are new to Chrome extensions since there wi
 I'll be breaking this down into three parts:
 
 1. Configuring `chrome.identity.launchWebAuthFlow` for Google Sign In in the extension (this post)
-2. Setting up a Cloudflare Worker to handle the token exchange and refresh
-3. Handling the token revoke and refresh in the extension
+2. [Setting up a Cloudflare Worker to handle the token exchange and refresh](/post/chrome-extension-google-oauth-access-token/)
+3. [Handling the token revoke and refresh in the extension](/post/chrome-extension-google-oauth-refresh-token/)
 
 
 We'll be doing the following:
@@ -201,6 +201,6 @@ https://${chrome.runtime.id}.chromiumapp.org
 
 ## Next steps
 
-This is the first step in the OAuth flow. The next post covers the authorization code exchange for the user access token and refresh token. This will require a server process to handle the token exchange and refresh. We'll use a Cloudflare Worker to handle this process.
+This is the first step in the OAuth flow. The next post covers the [authorization code exchange for the user access token and refresh token](/post/chrome-extension-google-oauth-access-token/). This will require a server process to handle the token exchange and refresh. We'll use a Cloudflare Worker to handle this process.
 
 If this post was helpful, consider signing up for the newsletter (below) to get updates when new posts are published.
