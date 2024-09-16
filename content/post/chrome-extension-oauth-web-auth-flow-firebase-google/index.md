@@ -64,8 +64,6 @@ Now, should you use your own flow in combination with `chrome.identity.getAuthTo
 
 `chrome.identity.launchWebAuthFlow` initiates the OAuth 2.0 flow in the Chrome extension and typically provides an authorization code or access token, depending on the OAuth provider's flow. Access tokens obtained via this flow have an expiration time, after which they will become invalid. Refresh tokens, if available, are not automatically managed by Chrome's `launchWebAuthFlow`. You need to explicitly manage them in your extension. Most write-ups on this topic will only cover the access token and not the refresh token. This is important because the access token will expire and you'll need the refresh token to get a new access token.
 
-{{< warning >}}
-
 To handle the token revoke, you'll need to listen for sign outs, token expiration, token refresh, and token revoke from the Google account.
 
 To handle these scenarios, we'll need to do a few things:
