@@ -31,7 +31,7 @@ Now that we have the access token and refresh token, we can use the refresh toke
 
 There are are few updates to the existing code that we need to make to handle the token refresh:
 
-1. Update the API with a new endpoint to handle the token refresh
+1. Update the API with a [new endpoint to handle the token refresh](https://developers.google.com/identity/protocols/oauth2/web-server#offline)
 2. Update the Chrome extension to use the refresh token to get a new access token
 3. Protect the refresh token endpoint with Firebase Auth (optional)
 

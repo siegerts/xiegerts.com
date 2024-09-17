@@ -50,7 +50,7 @@ I use Cloudflare Workers for this example but you can use any platform like AWS 
 The extension will:
 1. Get the authorization code from the OAuth flow
 2. Send the authorization code to the Cloudflare Worker API
-3. The API will exchange the authorization code for the access token and refresh token
+3. The API will [exchange the authorization code for the access token and refresh token](https://developers.google.com/identity/protocols/oauth2/web-server#exchange-authorization-code)
 4. The API will return the access token and refresh token to the extension
 
 

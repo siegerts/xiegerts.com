@@ -168,6 +168,10 @@ Let's step through the code:
 10. The flow is initiated with `chrome.identity.launchWebAuthFlow` and the `url` is set to the `authUrl` that we created. The `interactive` is set to `true` so that the user is prompted to sign in. The callback function will be called with the `redirectUrl` which will contain the authorization code that we need to exchange for an access token and refresh token.
 11. The `redirectUrl` is parsed using `URLSearchParams` to get the authorization code which is then used to exchange for an access token and refresh token.
 
+
+More information on the individual parameters can be found in the [Obtaining OAuth 2.0 access tokens](https://developers.google.com/identity/protocols/oauth2/javascript-implicit-flow#obtainingaccesstokens) documentation.
+
+
 ## Update the manifest.json
 
 The `manifest.json` will need to be updated to include the `identity` permission to 
