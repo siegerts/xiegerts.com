@@ -42,7 +42,7 @@ This API uses the [Hono framework](https://hono.dev/docs/getting-started/cloudfl
 
 {{< note >}}
 
-I use Cloudflare Workers for this example but you can use any platform like AWS Lambda, Google Cloud Functions, or persistent serer will work.
+I use Cloudflare Workers for this example but you can use any platform like AWS Lambda, Google Cloud Functions, or persistent server will work.
 
 {{< /note >}}
 
