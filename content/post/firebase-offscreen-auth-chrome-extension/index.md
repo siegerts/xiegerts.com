@@ -318,7 +318,7 @@ Now, we need to update the background script to handle the auth process initiati
 In the `background.ts` file, we need to add the code to handle the auth process initiation and response from the offscreen document. This code will create the offscreen document, send a message to the offscreen document to start the auth process, and handle the response from the offscreen document with the user's credentials.
 
 {{< note >}}
-The `OFFSCREEN_DOCUMENT_PATH` is the path to the tab (`siwp.tx`) page that we created earlier. This path should match the path to the offscreen document in the extension project. When Plasmo build the extension, it will convert the tsx file to an HTML file.
+The `OFFSCREEN_DOCUMENT_PATH` is the path to the tab (`siwp.tx`) page that we created earlier. This path should match the path to the offscreen document in the extension project. When Plasmo builds the extension, it will convert the tsx file to an HTML file.
 {{< /note >}}
 
 ```ts
