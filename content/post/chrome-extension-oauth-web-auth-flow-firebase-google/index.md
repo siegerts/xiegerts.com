@@ -36,7 +36,7 @@ I'm mostly documenting this so I don't need to relearn this next time I need to 
 
 ## Overview
 
-This post assumes that you already have a Chrome extension (Manifest v3) configured to use Google Sign In with OAuth. And also that you've created a Google Cloud project with the necessary APIs enabled. I also use Firebase Auth to manage the user state in the extension but you can use any other method to manage the user state Additionally, I use [Plasmo with React](https://docs.plasmo.com/) but you should be able to swap in another framework or use with Vanilla JS since we'll just be using the Chrome API.
+This post assumes that you already have a Chrome extension (Manifest v3) configured to use Google Sign In with OAuth. And also that you've created a Google Cloud project with the necessary APIs enabled. I also use Firebase Auth to manage the user state in the extension but you can use any other method to manage the user state. Additionally, I use [Plasmo with React](https://docs.plasmo.com/) but you should be able to swap in another framework or use with Vanilla JS since we'll just be using the Chrome API.
 
 This might be a little tricky if you are new to Chrome extensions since there will be some messaging between the background script and client script that will trigger the OAuth flow. So, just be prepared to do some debugging.
 
