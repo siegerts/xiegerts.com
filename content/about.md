@@ -8,11 +8,11 @@ I try to keep things simple.
 
 I've been building products and services for the past 15 years. I've worked on a variety of projects, from building browser extensions to SaaS products. Recently, I've consulted with startups and enterprises on building Chrome extensions, full stack serverless applications, and cloud-native architectures.
 
+- Senior Solutions Architect @ Amazon Web Services
+
 - Developer Advocacy @ Neon - Serverless Postgres
 
 - Senior Product Manager, Technical @ Amazon Web Services
-
-- Senior Solutions Architect @ Amazon Web Services
 
 - Software Development Manager @ SAS Institute
 
